@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Legislative Event Record",
+  "type": "object",
+  "required": ["record_id", "measure_ref", "event_type", "event_time", "official_locator", "status"],
+  "properties": {
+    "record_id": { "type": "string", "pattern": "^LER-[A-Z0-9-]+$" },
+    "measure_ref": { "type": "string", "minLength": 1 },
+    "event_type": { "enum": ["INTRODUCTION", "REFERRAL", "HEARING", "MARKUP", "REPORT", "AMENDMENT", "VOTE", "PASSAGE", "CONFERENCE", "PRESENTMENT", "SIGNATURE", "VETO", "ENACTMENT", "OTHER"] },
+    "event_time": { "type": "string", "format": "date-time" },
+    "text_or_version_ref": { "type": "string" },
+    "official_locator": { "type": "string", "minLength": 1 },
+    "status": { "enum": ["OBSERVED", "VERIFIED", "CONTESTED", "INVALIDATED", "CLOSED"] }
+  },
+  "additionalProperties": false
+}

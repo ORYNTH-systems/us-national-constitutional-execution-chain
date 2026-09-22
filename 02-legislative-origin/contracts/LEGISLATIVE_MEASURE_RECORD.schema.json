@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Legislative Measure Record",
+  "type": "object",
+  "required": ["record_id", "measure_identifier", "congress", "chamber_of_origin", "official_locator", "status"],
+  "properties": {
+    "record_id": { "type": "string", "pattern": "^LMR-[A-Z0-9-]+$" },
+    "measure_identifier": { "type": "string", "minLength": 1 },
+    "congress": { "type": "string", "pattern": "^[0-9]+$" },
+    "chamber_of_origin": { "enum": ["HOUSE", "SENATE", "JOINT", "OTHER"] },
+    "official_locator": { "type": "string", "minLength": 1 },
+    "version_identifier": { "type": "string" },
+    "sponsor_or_originator_refs": { "type": "array", "items": { "type": "string" } },
+    "status": { "enum": ["PROPOSED", "OBSERVED", "VERIFIED", "CONTESTED", "INVALIDATED", "CLOSED"] }
+  },
+  "additionalProperties": false
+}
