@@ -1,0 +1,7 @@
+[
+  { "id": "AI-001", "case": "Original Constitution artifact hash differs from its attestation", "expected": "BLOCKED" },
+  { "id": "AI-002", "case": "Article I cannot be separated from Article II by source headings", "expected": "BLOCKED" },
+  { "id": "AI-003", "case": "Any Article I section heading from 1 through 10 is absent", "expected": "BLOCKED" },
+  { "id": "AI-004", "case": "Article I structure is presented as a legislative authority conclusion", "expected": "INVALID" },
+  { "id": "AI-005", "case": "All ten sections are source-anchored and not interpreted", "expected": "CONFORMANT" }
+]

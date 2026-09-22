@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Article I Section Structural Record",
+  "type": "object",
+  "required": ["record_id", "parent_unit_record_id", "source_record_id", "source_attestation_record_id", "source_artifact_sha256", "unit_type", "conventional_designator", "ordinal", "anchor_pattern", "anchor_verified", "text_status", "interpretation_status"],
+  "properties": {
+    "record_id": { "type": "string", "minLength": 1 },
+    "parent_unit_record_id": { "const": "NCEC-CONST-ARTICLE-01" },
+    "source_record_id": { "const": "NCEC-CS-UNITED-STATES-CONSTITUTION-001" },
+    "source_attestation_record_id": { "const": "NCEC-SRC-ATTEST-NARA-CONSTITUTION-001" },
+    "source_artifact_sha256": { "type": "string", "pattern": "^[A-Fa-f0-9]{64}$" },
+    "unit_type": { "const": "article_section" },
+    "conventional_designator": { "type": "string", "minLength": 1 },
+    "ordinal": { "type": "integer", "minimum": 1, "maximum": 10 },
+    "anchor_pattern": { "type": "string", "minLength": 1 },
+    "anchor_verified": { "const": true },
+    "text_status": { "const": "not_extracted" },
+    "interpretation_status": { "const": "not_interpreted" }
+  },
+  "additionalProperties": false
+}
