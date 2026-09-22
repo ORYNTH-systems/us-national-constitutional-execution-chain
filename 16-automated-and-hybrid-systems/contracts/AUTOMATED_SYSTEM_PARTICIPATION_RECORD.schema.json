@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Automated System Participation Record",
+  "type": "object",
+  "required": ["record_id", "system_identity", "participation_mode", "accountable_principal_record_id", "authority_chain_record_id", "approved_purpose", "jurisdiction_record_id", "scope", "authorization_status", "revocation_check_at", "provenance"],
+  "properties": {
+    "record_id": { "type": "string", "minLength": 1 },
+    "system_identity": { "type": "string", "minLength": 1 },
+    "participation_mode": { "enum": ["observation", "classification", "recommendation", "drafting", "calculation", "routing", "bounded_ministerial_execution"] },
+    "accountable_principal_record_id": { "type": "string", "minLength": 1 },
+    "authority_chain_record_id": { "type": "string", "minLength": 1 },
+    "delegation_record_id": { "type": "string" },
+    "approved_purpose": { "type": "string", "minLength": 1 },
+    "jurisdiction_record_id": { "type": "string", "minLength": 1 },
+    "scope": { "type": "string", "minLength": 1 },
+    "authorization_status": { "enum": ["current", "suspended", "revoked", "expired", "unresolved"] },
+    "revocation_check_at": { "type": "string", "format": "date-time" },
+    "provenance": { "type": "array", "minItems": 1, "items": { "type": "string" } }
+  },
+  "additionalProperties": false
+}

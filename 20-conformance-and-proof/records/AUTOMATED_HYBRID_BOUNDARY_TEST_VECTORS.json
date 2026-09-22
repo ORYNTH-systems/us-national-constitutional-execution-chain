@@ -1,0 +1,10 @@
+[
+  { "id": "AH-001", "case": "System output names no accountable public principal", "expected": "BLOCKED" },
+  { "id": "AH-002", "case": "System has access but no authority-chain or approved-purpose record", "expected": "BLOCKED" },
+  { "id": "AH-003", "case": "Delegated participation attempts to exceed recorded scope", "expected": "BLOCKED" },
+  { "id": "AH-004", "case": "Authorization is stale, revoked, expired, or unresolved", "expected": "BLOCKED" },
+  { "id": "AH-005", "case": "High-impact effect lacks predicate, evidence, gate, review, or remedy record", "expected": "BLOCKED" },
+  { "id": "AH-006", "case": "Evidence conflict or gate failure occurs before effect", "expected": "PAUSED_OR_ROUTED_FOR_REVIEW" },
+  { "id": "AH-007", "case": "Complete bounded ministerial execution links current principal, authority, scope, gate, receipt, and remedy", "expected": "ELIGIBLE_FOR_EXECUTION" },
+  { "id": "AH-008", "case": "Stop event after revocation produces an access-revoked receipt", "expected": "CONFORMANT_STOP" }
+]

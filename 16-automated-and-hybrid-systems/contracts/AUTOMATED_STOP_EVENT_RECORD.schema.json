@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Automated Stop Event Record",
+  "type": "object",
+  "required": ["record_id", "system_participation_record_id", "trigger_type", "trigger_record_id", "occurred_at", "action_taken", "responsible_principal_record_id", "provenance"],
+  "properties": {
+    "record_id": { "type": "string", "minLength": 1 },
+    "system_participation_record_id": { "type": "string", "minLength": 1 },
+    "trigger_type": { "enum": ["revocation", "expiration", "scope_conflict", "predicate_unresolved", "evidence_conflict", "gate_failure", "manual_stop"] },
+    "trigger_record_id": { "type": "string", "minLength": 1 },
+    "occurred_at": { "type": "string", "format": "date-time" },
+    "action_taken": { "enum": ["blocked", "paused", "routed_for_review", "access_revoked"] },
+    "responsible_principal_record_id": { "type": "string", "minLength": 1 },
+    "provenance": { "type": "array", "minItems": 1, "items": { "type": "string" } }
+  },
+  "additionalProperties": false
+}
