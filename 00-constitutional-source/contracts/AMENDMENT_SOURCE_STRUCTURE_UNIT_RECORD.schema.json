@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Amendment Source Structure Unit Record",
+  "type": "object",
+  "required": ["record_id", "source_record_id", "source_attestation_record_id", "source_artifact_sha256", "unit_type", "conventional_designator", "source_ordinal", "anchor_pattern", "anchor_verified", "text_status", "interpretation_status"],
+  "properties": {
+    "record_id": { "type": "string", "minLength": 1 },
+    "source_record_id": { "type": "string", "minLength": 1 },
+    "source_attestation_record_id": { "type": "string", "minLength": 1 },
+    "source_artifact_sha256": { "type": "string", "pattern": "^[A-Fa-f0-9]{64}$" },
+    "unit_type": { "enum": ["source_document_article", "source_heading"] },
+    "conventional_designator": { "type": "string", "minLength": 1 },
+    "source_ordinal": { "type": "integer", "minimum": 1 },
+    "anchor_pattern": { "type": "string", "minLength": 1 },
+    "anchor_verified": { "const": true },
+    "text_status": { "const": "not_extracted" },
+    "interpretation_status": { "const": "not_interpreted" }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,7 @@
+[
+  { "id": "ASS-001", "case": "Either amendment-source artifact hash differs from its attestation", "expected": "BLOCKED" },
+  { "id": "ASS-002", "case": "Bill of Rights source-heading structure cannot be found without inference", "expected": "BLOCKED" },
+  { "id": "ASS-003", "case": "Any heading from Amendments XI-XXVII is absent", "expected": "BLOCKED" },
+  { "id": "ASS-004", "case": "Bill of Rights source units are silently mapped to later amendment numbers", "expected": "INVALID" },
+  { "id": "ASS-005", "case": "All source units are indexed with separate provenance and no interpretation", "expected": "CONFORMANT" }
+]
