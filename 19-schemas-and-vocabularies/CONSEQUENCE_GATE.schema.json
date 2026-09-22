@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Consequence Gate",
+  "type": "object",
+  "required": ["gate_id", "action_ref", "decision", "checks"],
+  "properties": {
+    "gate_id": {"type": "string", "pattern": "^NCE-CG-[0-9]{6}$"},
+    "action_ref": {"type": "string"},
+    "decision": {"enum": ["ADMISSIBLE_FOR_CONSEQUENCE", "BLOCKED", "PENDING_REVIEW"]},
+    "checks": {"type": "object", "required": ["source", "authority", "jurisdiction", "evidence", "temporal_validity"], "additionalProperties": {"enum": ["PASS", "FAIL", "UNRESOLVED"]}},
+    "reason_refs": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}

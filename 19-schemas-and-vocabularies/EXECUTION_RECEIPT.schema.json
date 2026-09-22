@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Execution Receipt",
+  "type": "object",
+  "required": ["receipt_id", "action_ref", "actor_ref", "decision_ref", "executed_at", "outcome"],
+  "properties": {
+    "receipt_id": {"type": "string", "pattern": "^NCE-ER-[0-9]{6}$"},
+    "action_ref": {"type": "string"},
+    "actor_ref": {"type": "string"},
+    "decision_ref": {"type": "string"},
+    "executed_at": {"type": "string", "format": "date-time"},
+    "outcome": {"enum": ["EXECUTED", "DENIED", "HALTED", "REVERSED"]},
+    "effect_refs": {"type": "array", "items": {"type": "string"}},
+    "evidence_refs": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}

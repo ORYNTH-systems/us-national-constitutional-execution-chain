@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Authority Chain Record",
+  "type": "object",
+  "required": ["record_id", "status", "source_refs", "actor_ref", "jurisdiction_ref", "valid_from"],
+  "properties": {
+    "record_id": {"type": "string", "pattern": "^NCE-ACR-[0-9]{6}$"},
+    "status": {"enum": ["PROPOSED", "OBSERVED", "VERIFIED", "CONTESTED", "INVALIDATED", "CLOSED"]},
+    "source_refs": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "actor_ref": {"type": "string"},
+    "jurisdiction_ref": {"type": "string"},
+    "delegation_refs": {"type": "array", "items": {"type": "string"}},
+    "valid_from": {"type": "string", "format": "date-time"},
+    "valid_until": {"type": "string", "format": "date-time"}
+  },
+  "additionalProperties": false
+}
