@@ -1,0 +1,93 @@
+[
+    {
+        "record_id":  "NCEC-CONST-ARTICLE-01",
+        "source_record_id":  "NCEC-CS-UNITED-STATES-CONSTITUTION-001",
+        "source_attestation_record_id":  "NCEC-SRC-ATTEST-NARA-CONSTITUTION-001",
+        "source_artifact_sha256":  "827d192ab2a55600210ebbedc24feac29fc396ecb2879eec1825d992a5f4d04a",
+        "unit_type":  "article",
+        "conventional_designator":  "Article I",
+        "ordinal":  1,
+        "anchor_pattern":  "(?i)\\bArticle\\s*\\.?\\s*I\\b",
+        "anchor_verified":  true,
+        "text_status":  "not_extracted",
+        "interpretation_status":  "not_interpreted"
+    },
+    {
+        "record_id":  "NCEC-CONST-ARTICLE-02",
+        "source_record_id":  "NCEC-CS-UNITED-STATES-CONSTITUTION-001",
+        "source_attestation_record_id":  "NCEC-SRC-ATTEST-NARA-CONSTITUTION-001",
+        "source_artifact_sha256":  "827d192ab2a55600210ebbedc24feac29fc396ecb2879eec1825d992a5f4d04a",
+        "unit_type":  "article",
+        "conventional_designator":  "Article II",
+        "ordinal":  2,
+        "anchor_pattern":  "(?i)\\bArticle\\s*\\.?\\s*II\\b",
+        "anchor_verified":  true,
+        "text_status":  "not_extracted",
+        "interpretation_status":  "not_interpreted"
+    },
+    {
+        "record_id":  "NCEC-CONST-ARTICLE-03",
+        "source_record_id":  "NCEC-CS-UNITED-STATES-CONSTITUTION-001",
+        "source_attestation_record_id":  "NCEC-SRC-ATTEST-NARA-CONSTITUTION-001",
+        "source_artifact_sha256":  "827d192ab2a55600210ebbedc24feac29fc396ecb2879eec1825d992a5f4d04a",
+        "unit_type":  "article",
+        "conventional_designator":  "Article III",
+        "ordinal":  3,
+        "anchor_pattern":  "(?i)\\bArticle\\s*\\.?\\s*III\\b",
+        "anchor_verified":  true,
+        "text_status":  "not_extracted",
+        "interpretation_status":  "not_interpreted"
+    },
+    {
+        "record_id":  "NCEC-CONST-ARTICLE-04",
+        "source_record_id":  "NCEC-CS-UNITED-STATES-CONSTITUTION-001",
+        "source_attestation_record_id":  "NCEC-SRC-ATTEST-NARA-CONSTITUTION-001",
+        "source_artifact_sha256":  "827d192ab2a55600210ebbedc24feac29fc396ecb2879eec1825d992a5f4d04a",
+        "unit_type":  "article",
+        "conventional_designator":  "Article IV",
+        "ordinal":  4,
+        "anchor_pattern":  "(?i)\\bArticle\\s*\\.?\\s*IV\\b",
+        "anchor_verified":  true,
+        "text_status":  "not_extracted",
+        "interpretation_status":  "not_interpreted"
+    },
+    {
+        "record_id":  "NCEC-CONST-ARTICLE-05",
+        "source_record_id":  "NCEC-CS-UNITED-STATES-CONSTITUTION-001",
+        "source_attestation_record_id":  "NCEC-SRC-ATTEST-NARA-CONSTITUTION-001",
+        "source_artifact_sha256":  "827d192ab2a55600210ebbedc24feac29fc396ecb2879eec1825d992a5f4d04a",
+        "unit_type":  "article",
+        "conventional_designator":  "Article V",
+        "ordinal":  5,
+        "anchor_pattern":  "(?i)\\bArticle\\s*\\.?\\s*V\\b",
+        "anchor_verified":  true,
+        "text_status":  "not_extracted",
+        "interpretation_status":  "not_interpreted"
+    },
+    {
+        "record_id":  "NCEC-CONST-ARTICLE-06",
+        "source_record_id":  "NCEC-CS-UNITED-STATES-CONSTITUTION-001",
+        "source_attestation_record_id":  "NCEC-SRC-ATTEST-NARA-CONSTITUTION-001",
+        "source_artifact_sha256":  "827d192ab2a55600210ebbedc24feac29fc396ecb2879eec1825d992a5f4d04a",
+        "unit_type":  "article",
+        "conventional_designator":  "Article VI",
+        "ordinal":  6,
+        "anchor_pattern":  "(?i)\\bArticle\\s*\\.?\\s*VI\\b",
+        "anchor_verified":  true,
+        "text_status":  "not_extracted",
+        "interpretation_status":  "not_interpreted"
+    },
+    {
+        "record_id":  "NCEC-CONST-ARTICLE-07",
+        "source_record_id":  "NCEC-CS-UNITED-STATES-CONSTITUTION-001",
+        "source_attestation_record_id":  "NCEC-SRC-ATTEST-NARA-CONSTITUTION-001",
+        "source_artifact_sha256":  "827d192ab2a55600210ebbedc24feac29fc396ecb2879eec1825d992a5f4d04a",
+        "unit_type":  "article",
+        "conventional_designator":  "Article VII",
+        "ordinal":  7,
+        "anchor_pattern":  "(?i)\\bArticle\\s*\\.?\\s*VII\\b",
+        "anchor_verified":  true,
+        "text_status":  "not_extracted",
+        "interpretation_status":  "not_interpreted"
+    }
+]

@@ -1,0 +1,7 @@
+[
+  { "id": "CAI-001", "case": "Preserved original Constitution artifact hash differs from its attestation", "expected": "BLOCKED" },
+  { "id": "CAI-002", "case": "Any of the seven Article headings is absent", "expected": "BLOCKED" },
+  { "id": "CAI-003", "case": "Article index has a count other than seven", "expected": "INVALID" },
+  { "id": "CAI-004", "case": "Amendment text or headings are inferred from the original Constitution transcript", "expected": "INVALID" },
+  { "id": "CAI-005", "case": "All seven Articles are source-anchored and remain not interpreted", "expected": "CONFORMANT" }
+]
