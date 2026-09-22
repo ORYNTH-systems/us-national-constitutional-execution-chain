@@ -1,0 +1,10 @@
+# Constitution Hydration Provenance Audit
+
+Two committed retrieval states were identified for the same NARA transcript locator. Both are retained as explicit retrieval events rather than treated as a single mutable source.
+
+| Event | Commit | Git blob | SHA-256 | Status |
+| --- | --- | --- | --- | --- |
+| NCEC-SRC-RETRIEVAL-NARA-CONSTITUTION-001 | $priorCommit | $priorBlob | $(if ( -ne @{record_id=NCEC-SRC-ATTEST-NARA-CONSTITUTION-001; official_publisher=National Archives and Records Administration; canonical_locator=https://www.archives.gov/founding-docs/constitution-transcript; retrieved_at=2026-09-22T05:35:49.4680647Z; retrieval_method=direct HTTPS retrieval by PowerShell Invoke-WebRequest; content-marker and challenge-page checks applied; artifact_path=00-constitutional-source/records/official-source-snapshots/nara-constitution-transcript.html; sha256=827d192ab2a55600210ebbedc24feac29fc396ecb2879eec1825d992a5f4d04a; media_type=text/html; representation_status=retrieved; known_limitations=System.Object[]; review_status=queued}) { @{record_id=NCEC-SRC-ATTEST-NARA-CONSTITUTION-001; official_publisher=National Archives and Records Administration; canonical_locator=https://www.archives.gov/founding-docs/constitution-transcript; retrieved_at=2026-09-22T05:35:49.4680647Z; retrieval_method=direct HTTPS retrieval by PowerShell Invoke-WebRequest; content-marker and challenge-page checks applied; artifact_path=00-constitutional-source/records/official-source-snapshots/nara-constitution-transcript.html; sha256=827d192ab2a55600210ebbedc24feac29fc396ecb2879eec1825d992a5f4d04a; media_type=text/html; representation_status=retrieved; known_limitations=System.Object[]; review_status=queued}.sha256 } else { 'not captured in a tracked attestation' }) | historical retrieval preserved |
+| NCEC-SRC-RETRIEVAL-NARA-CONSTITUTION-002 | $currentCommit | $currentBlob | $currentHash | current retrieval preserved; review queued |
+
+This audit compares provenance identifiers only. It does not interpret the Constitution, determine legal effect, or assert why any representation may differ.

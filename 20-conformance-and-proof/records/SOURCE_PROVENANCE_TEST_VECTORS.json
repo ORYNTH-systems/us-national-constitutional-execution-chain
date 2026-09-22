@@ -1,0 +1,7 @@
+[
+  { "id": "SP-001", "case": "Current source artifact hash differs from its attestation", "expected": "BLOCKED" },
+  { "id": "SP-002", "case": "Later retrieval overwrites a prior retrieval event", "expected": "INVALID" },
+  { "id": "SP-003", "case": "A challenge or error page is admitted as a source representation", "expected": "REJECTED" },
+  { "id": "SP-004", "case": "Two retrievals are preserved with distinct events, hashes, and commit references", "expected": "CONFORMANT" },
+  { "id": "SP-005", "case": "A retrieval representation is treated as constitutional interpretation", "expected": "INVALID" }
+]

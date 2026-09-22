@@ -1,0 +1,24 @@
+[
+    {
+        "event_id":  "NCEC-SRC-RETRIEVAL-NARA-CONSTITUTION-001",
+        "repository_commit":  "79ed05e9234178398765109e56b4973b139b503b",
+        "repository_commit_time":  "2026-09-22T00:35:49-05:00",
+        "artifact_path":  "00-constitutional-source/records/official-source-snapshots/nara-constitution-transcript.html",
+        "artifact_git_blob":  "cb91d6c2bf7d1fecd6aea26cf3ae9a9351e41945",
+        "artifact_sha256":  "827d192ab2a55600210ebbedc24feac29fc396ecb2879eec1825d992a5f4d04a",
+        "attestation_path":  "00-constitutional-source/records/NARA_CONSTITUTION_SOURCE_ATTESTATION.json",
+        "canonical_locator":  "https://www.archives.gov/founding-docs/constitution-transcript",
+        "status":  "historical_retrieval_preserved"
+    },
+    {
+        "event_id":  "NCEC-SRC-RETRIEVAL-NARA-CONSTITUTION-002",
+        "repository_commit":  "7290fcdac2a51d791534b99deafddda1a21e853d",
+        "repository_commit_time":  "2026-09-22T00:37:11-05:00",
+        "artifact_path":  "00-constitutional-source/records/official-source-snapshots/nara-constitution-transcript.html",
+        "artifact_git_blob":  "cb91d6c2bf7d1fecd6aea26cf3ae9a9351e41945",
+        "artifact_sha256":  "827d192ab2a55600210ebbedc24feac29fc396ecb2879eec1825d992a5f4d04a",
+        "attestation_path":  "00-constitutional-source/records/NARA_CONSTITUTION_SOURCE_ATTESTATION.json",
+        "canonical_locator":  "https://www.archives.gov/founding-docs/constitution-transcript",
+        "status":  "current_retrieval_preserved_pending_review"
+    }
+]
