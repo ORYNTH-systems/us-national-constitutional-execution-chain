@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Evidence Record",
+  "type": "object",
+  "required": ["record_id", "evidence_kind", "source_locator_or_custody", "observed_time", "integrity_state", "status"],
+  "properties": {
+    "record_id": { "type": "string", "pattern": "^EVR-[A-Z0-9-]+$" },
+    "evidence_kind": { "enum": ["OFFICIAL_RECORD", "TESTIMONY", "DATASET", "SYSTEM_LOG", "REPORT", "IMAGE", "VIDEO", "MODEL_OUTPUT", "OTHER"] },
+    "source_locator_or_custody": { "type": "string", "minLength": 1 },
+    "observed_time": { "type": "string", "format": "date-time" },
+    "content_hash": { "type": "string", "pattern": "^[A-Fa-f0-9]{64}$" },
+    "integrity_state": { "enum": ["UNASSESSED", "PRESERVED", "VERIFIED", "CONFLICTED", "ALTERED", "UNAVAILABLE"] },
+    "limitations": { "type": "array", "items": { "type": "string" } },
+    "status": { "enum": ["OBSERVED", "VERIFIED", "CONTESTED", "INVALIDATED", "CLOSED"] }
+  },
+  "additionalProperties": false
+}

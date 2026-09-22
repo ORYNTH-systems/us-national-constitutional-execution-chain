@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Consequence Gate Record",
+  "type": "object",
+  "required": ["record_id", "proposed_effect", "required_link_refs", "decision", "decision_time", "decision_basis", "status"],
+  "properties": {
+    "record_id": { "type": "string", "pattern": "^CGR-[A-Z0-9-]+$" },
+    "proposed_effect": { "type": "string", "minLength": 1 },
+    "required_link_refs": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "unresolved_refs": { "type": "array", "items": { "type": "string" } },
+    "decision": { "enum": ["INCOMPLETE", "BLOCKED", "ESCALATE", "ADMISSIBLE_FOR_CONSEQUENCE"] },
+    "decision_time": { "type": "string", "format": "date-time" },
+    "decision_basis": { "type": "string", "minLength": 1 },
+    "review_route_ref": { "type": "string" },
+    "status": { "enum": ["OBSERVED", "VERIFIED", "CONTESTED", "INVALIDATED", "CLOSED"] }
+  },
+  "additionalProperties": false
+}

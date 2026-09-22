@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Effect Receipt Record",
+  "type": "object",
+  "required": ["record_id", "consequence_gate_ref", "effect_statement", "effect_time", "executor_ref", "provenance_refs", "review_route_ref", "status"],
+  "properties": {
+    "record_id": { "type": "string", "pattern": "^EFR-[A-Z0-9-]+$" },
+    "consequence_gate_ref": { "type": "string", "minLength": 1 },
+    "effect_statement": { "type": "string", "minLength": 1 },
+    "effect_time": { "type": "string", "format": "date-time" },
+    "executor_ref": { "type": "string", "minLength": 1 },
+    "affected_subject_refs": { "type": "array", "items": { "type": "string" } },
+    "provenance_refs": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "review_route_ref": { "type": "string", "minLength": 1 },
+    "status": { "enum": ["OBSERVED", "VERIFIED", "CONTESTED", "CORRECTED", "REVERSED", "CLOSED"] }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,9 @@
+[
+  { "test_id": "EE-001", "condition": "missing_evidence_provenance", "expected": "BLOCKED" },
+  { "test_id": "EE-002", "condition": "unresolved_material_conflict", "expected": "BLOCKED" },
+  { "test_id": "EE-003", "condition": "predicate_unresolved_or_expired", "expected": "BLOCKED" },
+  { "test_id": "EE-004", "condition": "gate_missing_required_link", "expected": "INVALID" },
+  { "test_id": "EE-005", "condition": "execution_without_receipt", "expected": "BLOCKED" },
+  { "test_id": "EE-006", "condition": "receipt_without_remedy_route", "expected": "BLOCKED" },
+  { "test_id": "EE-007", "condition": "complete_current_evidence_to_effect_chain", "expected": "ADMISSIBLE_FOR_CONSEQUENCE" }
+]
