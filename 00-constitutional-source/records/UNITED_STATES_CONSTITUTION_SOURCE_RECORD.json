@@ -1,0 +1,13 @@
+{
+    "record_id":  "NCEC-CS-UNITED-STATES-CONSTITUTION-001",
+    "record_type":  "constitutional_source_representation",
+    "title":  "Constitution of the United States â€” National Archives transcript representation",
+    "source_attestation_record_id":  "NCEC-SRC-ATTEST-NARA-CONSTITUTION-001",
+    "source_locator":  "https://www.archives.gov/founding-docs/constitution-transcript",
+    "preserved_artifact_path":  "00-constitutional-source/records/official-source-snapshots/nara-constitution-transcript.html",
+    "preserved_artifact_sha256":  "827d192ab2a55600210ebbedc24feac29fc396ecb2879eec1825d992a5f4d04a",
+    "retrieved_at":  "2026-09-22T05:35:49.4680647Z",
+    "scope":  "Transcript representation only; source acquisition and provenance layer.",
+    "interpretation_status":  "not_interpreted",
+    "admission_status":  "retrieved_pending_review"
+}
