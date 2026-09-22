@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Appointment and Confirmation Event Record",
+  "type": "object",
+  "required": ["record_id", "office_role_ref", "event_type", "event_time", "official_locator", "status"],
+  "properties": {
+    "record_id": { "type": "string", "pattern": "^AER-[A-Z0-9-]+$" },
+    "office_role_ref": { "type": "string", "minLength": 1 },
+    "holder_ref": { "type": "string" },
+    "event_type": { "enum": ["NOMINATION", "ELECTION", "APPOINTMENT", "CONFIRMATION", "COMMISSION", "OATH", "ACTING_DESIGNATION", "VACANCY", "REMOVAL", "RESIGNATION", "SUCCESSION", "OTHER"] },
+    "event_time": { "type": "string", "format": "date-time" },
+    "official_locator": { "type": "string", "minLength": 1 },
+    "status": { "enum": ["OBSERVED", "VERIFIED", "CONTESTED", "INVALIDATED", "CLOSED"] }
+  },
+  "additionalProperties": false
+}

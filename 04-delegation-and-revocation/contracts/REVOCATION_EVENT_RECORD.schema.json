@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Revocation and Supersession Event Record",
+  "type": "object",
+  "required": ["record_id", "delegation_ref", "event_type", "event_time", "basis_ref", "status"],
+  "properties": {
+    "record_id": { "type": "string", "pattern": "^RER-[A-Z0-9-]+$" },
+    "delegation_ref": { "type": "string", "minLength": 1 },
+    "event_type": { "enum": ["REVOCATION", "EXPIRY", "SUSPENSION", "SUPERSESSION", "SCOPE_REDUCTION", "CONTEST", "RESOLUTION"] },
+    "event_time": { "type": "string", "format": "date-time" },
+    "basis_ref": { "type": "string", "minLength": 1 },
+    "successor_ref": { "type": "string" },
+    "status": { "enum": ["OBSERVED", "VERIFIED", "CONTESTED", "INVALIDATED", "CLOSED"] }
+  },
+  "additionalProperties": false
+}

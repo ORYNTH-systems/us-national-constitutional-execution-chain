@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Office Status Record",
+  "type": "object",
+  "required": ["record_id", "office_role_ref", "lifecycle_state", "effective_from", "status_basis_ref"],
+  "properties": {
+    "record_id": { "type": "string", "pattern": "^OSR-[A-Z0-9-]+$" },
+    "office_role_ref": { "type": "string", "minLength": 1 },
+    "holder_ref": { "type": "string" },
+    "lifecycle_state": { "enum": ["NOMINATED", "APPOINTED", "CONFIRMED", "ACTIVE", "ACTING", "VACANT", "EXPIRED", "REMOVED", "RESIGNED", "SUPERSEDED", "CONTESTED"] },
+    "effective_from": { "type": "string", "format": "date-time" },
+    "effective_until": { "type": "string", "format": "date-time" },
+    "status_basis_ref": { "type": "string", "minLength": 1 }
+  },
+  "additionalProperties": false
+}

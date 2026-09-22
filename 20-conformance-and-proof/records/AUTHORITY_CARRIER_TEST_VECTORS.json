@@ -1,0 +1,9 @@
+[
+  { "test_id": "AC-001", "condition": "office_status_unknown", "expected": "BLOCK" },
+  { "test_id": "AC-002", "condition": "appointment_path_missing", "expected": "BLOCK" },
+  { "test_id": "AC-003", "condition": "delegation_exceeds_scope", "expected": "BLOCK" },
+  { "test_id": "AC-004", "condition": "delegation_revoked_or_expired", "expected": "BLOCK" },
+  { "test_id": "AC-005", "condition": "jurisdiction_boundary_missing", "expected": "BLOCK" },
+  { "test_id": "AC-006", "condition": "shared_authority_unseparated", "expected": "BLOCK" },
+  { "test_id": "AC-007", "condition": "current_complete_authority_carrier_chain", "expected": "ELIGIBLE_FOR_NEXT_GATE" }
+]
