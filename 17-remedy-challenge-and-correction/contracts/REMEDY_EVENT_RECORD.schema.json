@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Remedy, Challenge, and Correction Event Record",
+  "type": "object",
+  "required": ["record_id", "affected_effect_ref", "event_kind", "event_time", "decision_maker_ref", "status"],
+  "properties": {
+    "record_id": { "type": "string", "pattern": "^RMR-[A-Z0-9-]+$" },
+    "affected_effect_ref": { "type": "string", "minLength": 1 },
+    "event_kind": { "enum": ["CHALLENGE", "APPEAL", "STAY", "PAUSE", "CORRECTION", "REVERSAL", "REMEDY", "COMPENSATION", "CLOSURE"] },
+    "event_time": { "type": "string", "format": "date-time" },
+    "decision_maker_ref": { "type": "string", "minLength": 1 },
+    "basis_refs": { "type": "array", "items": { "type": "string" } },
+    "successor_effect_ref": { "type": "string" },
+    "status": { "enum": ["PROPOSED", "OBSERVED", "VERIFIED", "CONTESTED", "CLOSED"] }
+  },
+  "additionalProperties": false
+}

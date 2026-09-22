@@ -1,0 +1,9 @@
+[
+  { "test_id": "RR-001", "condition": "judicial_scope_missing", "expected": "BLOCKED" },
+  { "test_id": "RR-002", "condition": "nonfinal_judicial_action_claimed_final", "expected": "BLOCKED" },
+  { "test_id": "RR-003", "condition": "effect_without_remedy_route", "expected": "BLOCKED" },
+  { "test_id": "RR-004", "condition": "correction_erases_original_receipt", "expected": "INVALID" },
+  { "test_id": "RR-005", "condition": "restriction_basis_missing", "expected": "BLOCKED" },
+  { "test_id": "RR-006", "condition": "public_trace_incomplete", "expected": "INCOMPLETE" },
+  { "test_id": "RR-007", "condition": "complete_review_remedy_trace", "expected": "ELIGIBLE_FOR_CLOSURE" }
+]

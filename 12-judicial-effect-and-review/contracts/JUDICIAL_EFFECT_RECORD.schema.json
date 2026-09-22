@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Judicial Effect Record",
+  "type": "object",
+  "required": ["record_id", "case_locator", "court_ref", "action_kind", "action_time", "scope_statement", "status"],
+  "properties": {
+    "record_id": { "type": "string", "pattern": "^JER-[A-Z0-9-]+$" },
+    "case_locator": { "type": "string", "minLength": 1 },
+    "court_ref": { "type": "string", "minLength": 1 },
+    "action_kind": { "enum": ["FILING", "ORDER", "OPINION", "JUDGMENT", "STAY", "INJUNCTION", "MANDATE", "OTHER"] },
+    "action_time": { "type": "string", "format": "date-time" },
+    "scope_statement": { "type": "string", "minLength": 1 },
+    "effect_time": { "type": "string", "format": "date-time" },
+    "review_route_ref": { "type": "string" },
+    "status": { "enum": ["OBSERVED", "VERIFIED", "STAYED", "CONTESTED", "VACATED", "CLOSED"] }
+  },
+  "additionalProperties": false
+}
