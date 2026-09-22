@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Full Chain Integration Record",
+  "type": "object",
+  "required": ["record_id", "effect_description", "applicable_domains", "source_record_ids", "office_record_id", "jurisdiction_record_id", "authority_record_ids", "predicate_assessment_record_id", "evidence_record_ids", "consequence_gate_record_id", "public_trace_record_id", "status"],
+  "properties": {
+    "record_id": { "type": "string", "minLength": 1 },
+    "effect_description": { "type": "string", "minLength": 1 },
+    "applicable_domains": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "inapplicability_rationales": { "type": "object", "additionalProperties": { "type": "string", "minLength": 1 } },
+    "source_record_ids": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "office_record_id": { "type": "string", "minLength": 1 },
+    "jurisdiction_record_id": { "type": "string", "minLength": 1 },
+    "authority_record_ids": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "delegation_record_ids": { "type": "array", "items": { "type": "string" } },
+    "procedure_record_ids": { "type": "array", "items": { "type": "string" } },
+    "predicate_assessment_record_id": { "type": "string", "minLength": 1 },
+    "evidence_record_ids": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "consequence_gate_record_id": { "type": "string", "minLength": 1 },
+    "execution_receipt_record_id": { "type": "string" },
+    "effect_receipt_record_id": { "type": "string" },
+    "review_record_ids": { "type": "array", "items": { "type": "string" } },
+    "remedy_record_ids": { "type": "array", "items": { "type": "string" } },
+    "public_trace_record_id": { "type": "string", "minLength": 1 },
+    "status": { "enum": ["blocked", "incomplete", "routed_for_review", "eligible_for_execution", "executed_with_receipt", "corrected"] }
+  },
+  "additionalProperties": false
+}

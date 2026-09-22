@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Source Acquisition Attestation",
+  "type": "object",
+  "required": ["record_id", "official_publisher", "canonical_locator", "retrieved_at", "retrieval_method", "artifact_path", "sha256", "media_type", "representation_status", "review_status"],
+  "properties": {
+    "record_id": { "type": "string", "minLength": 1 },
+    "official_publisher": { "type": "string", "minLength": 1 },
+    "canonical_locator": { "type": "string", "format": "uri" },
+    "retrieved_at": { "type": "string", "format": "date-time" },
+    "retrieval_method": { "type": "string", "minLength": 1 },
+    "artifact_path": { "type": "string", "minLength": 1 },
+    "sha256": { "type": "string", "pattern": "^[A-Fa-f0-9]{64}$" },
+    "media_type": { "type": "string", "minLength": 1 },
+    "representation_status": { "enum": ["retrieved", "challenge_or_error_rejected", "unavailable", "superseded"] },
+    "known_limitations": { "type": "array", "items": { "type": "string" } },
+    "review_status": { "enum": ["queued", "verified", "conflicted", "rejected"] }
+  },
+  "additionalProperties": false
+}

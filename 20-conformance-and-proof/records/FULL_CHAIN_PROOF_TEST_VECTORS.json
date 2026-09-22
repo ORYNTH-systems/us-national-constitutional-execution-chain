@@ -1,0 +1,14 @@
+[
+  { "id": "FC-001", "case": "No source record supports the claimed effect", "expected": "BLOCKED" },
+  { "id": "FC-002", "case": "Responsible office is expired, invalid, or unverified", "expected": "BLOCKED" },
+  { "id": "FC-003", "case": "Delegation exceeds its parent scope", "expected": "BLOCKED" },
+  { "id": "FC-004", "case": "Jurisdiction boundary is unresolved", "expected": "ROUTED_FOR_REVIEW" },
+  { "id": "FC-005", "case": "Required procedure record is omitted", "expected": "INCOMPLETE" },
+  { "id": "FC-006", "case": "Predicate is unresolved or evidence is conflicted", "expected": "BLOCKED" },
+  { "id": "FC-007", "case": "Consequence gate is absent or not passed", "expected": "BLOCKED" },
+  { "id": "FC-008", "case": "Effect occurs without an effect receipt", "expected": "INCOMPLETE" },
+  { "id": "FC-009", "case": "Automated participation has stale or revoked authorization", "expected": "BLOCKED" },
+  { "id": "FC-010", "case": "Election certification lacks required lifecycle provenance", "expected": "BLOCKED" },
+  { "id": "FC-011", "case": "Emergency effect persists beyond its recorded time or scope", "expected": "BLOCKED" },
+  { "id": "FC-012", "case": "Complete applicable trace includes source through public trace and remedy", "expected": "ELIGIBLE_FOR_EXECUTION" }
+]

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Release Integrity Manifest",
+  "type": "object",
+  "required": ["release_id", "commit_sha", "created_at", "included_paths", "artifact_digests", "conformance_artifacts", "source_hydration_status", "known_unresolved_items", "release_status"],
+  "properties": {
+    "release_id": { "type": "string", "minLength": 1 },
+    "commit_sha": { "type": "string", "pattern": "^[A-Fa-f0-9]{7,64}$" },
+    "created_at": { "type": "string", "format": "date-time" },
+    "included_paths": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "artifact_digests": { "type": "object", "minProperties": 1, "additionalProperties": { "type": "string", "pattern": "^[A-Fa-f0-9]{64}$" } },
+    "conformance_artifacts": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "source_hydration_status": { "enum": ["not_started", "partial", "verified", "conflicted"] },
+    "known_unresolved_items": { "type": "array", "items": { "type": "string" } },
+    "release_status": { "enum": ["draft", "frozen", "superseded", "withdrawn"] }
+  },
+  "additionalProperties": false
+}
