@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Emergency Restoration Record",
+  "type": "object",
+  "required": ["record_id", "activation_record_id", "trigger", "occurred_at", "responsible_office_record_id", "affected_effect_receipt_ids", "restoration_or_cessation", "provenance"],
+  "properties": {
+    "record_id": { "type": "string", "minLength": 1 },
+    "activation_record_id": { "type": "string", "minLength": 1 },
+    "trigger": { "enum": ["sunset", "expiration", "termination", "invalidation", "scope_correction"] },
+    "occurred_at": { "type": "string", "format": "date-time" },
+    "responsible_office_record_id": { "type": "string", "minLength": 1 },
+    "affected_effect_receipt_ids": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "restoration_or_cessation": { "type": "string", "minLength": 1 },
+    "provenance": { "type": "array", "minItems": 1, "items": { "type": "string" } }
+  },
+  "additionalProperties": false
+}

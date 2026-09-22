@@ -1,0 +1,11 @@
+[
+  { "id": "EC-001", "case": "Certification event has no jurisdiction or responsible-office record", "expected": "BLOCKED" },
+  { "id": "EC-002", "case": "Certification claim lacks count or audit provenance", "expected": "BLOCKED" },
+  { "id": "EC-003", "case": "Finality claim omits its basis or remaining challenge route", "expected": "INVALID" },
+  { "id": "EC-004", "case": "Complete lifecycle trace includes authority, office, provenance, scope, and challenge route", "expected": "ELIGIBLE_FOR_NEXT_GATE" },
+  { "id": "EA-001", "case": "Emergency activation lacks a source-linked predicate", "expected": "BLOCKED" },
+  { "id": "EA-002", "case": "Emergency-derived effect is outside recorded scope, jurisdiction, or time", "expected": "BLOCKED" },
+  { "id": "EA-003", "case": "Emergency effect continues after expiration without a recorded renewal", "expected": "BLOCKED" },
+  { "id": "EA-004", "case": "An ended emergency lacks a restoration or cessation receipt", "expected": "INCOMPLETE" },
+  { "id": "EA-005", "case": "Complete activation and restoration paths link to required evidence and receipts", "expected": "ELIGIBLE_FOR_NEXT_GATE" }
+]
