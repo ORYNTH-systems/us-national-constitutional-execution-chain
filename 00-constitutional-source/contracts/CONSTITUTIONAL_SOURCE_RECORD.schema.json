@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Constitutional Source Record",
+  "type": "object",
+  "required": ["record_id", "source_kind", "locator", "retrieval_provenance", "content_hash", "status"],
+  "properties": {
+    "record_id": { "type": "string", "pattern": "^CSR-[A-Z0-9-]+$" },
+    "source_kind": { "enum": ["CONSTITUTIONAL_TEXT", "AMENDMENT", "RATIFICATION_RECORD", "OFFICIAL_ARCHIVE_REFERENCE"] },
+    "locator": { "type": "string", "minLength": 1 },
+    "retrieval_provenance": { "type": "string", "minLength": 1 },
+    "content_hash": { "type": "string", "pattern": "^[A-Fa-f0-9]{64}$" },
+    "status": { "enum": ["OBSERVED", "VERIFIED", "CONTESTED", "INVALIDATED", "CLOSED"] },
+    "notes": { "type": "string" }
+  },
+  "additionalProperties": false
+}

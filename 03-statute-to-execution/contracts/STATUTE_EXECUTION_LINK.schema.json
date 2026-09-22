@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Statute to Execution Link",
+  "type": "object",
+  "required": ["record_id", "statute_locator", "operative_provision", "claimed_effect", "scope_statement", "status"],
+  "properties": {
+    "record_id": { "type": "string", "pattern": "^SEL-[A-Z0-9-]+$" },
+    "statute_locator": { "type": "string", "minLength": 1 },
+    "operative_provision": { "type": "string", "minLength": 1 },
+    "claimed_effect": { "type": "string", "minLength": 1 },
+    "scope_statement": { "type": "string", "minLength": 1 },
+    "effective_from": { "type": "string", "format": "date-time" },
+    "effective_until": { "type": "string", "format": "date-time" },
+    "status": { "enum": ["PROPOSED", "OBSERVED", "VERIFIED", "CONTESTED", "INVALIDATED", "CLOSED"] }
+  },
+  "additionalProperties": false
+}
