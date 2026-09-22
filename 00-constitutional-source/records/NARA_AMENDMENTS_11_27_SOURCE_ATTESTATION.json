@@ -1,0 +1,17 @@
+{
+    "record_id":  "NCEC-SRC-ATTEST-NARA-AMENDMENTS-11-27-001",
+    "official_publisher":  "National Archives and Records Administration",
+    "canonical_locator":  "https://www.archives.gov/founding-docs/amendments-11-27",
+    "retrieved_at":  "2026-09-22T06:12:07.3089013Z",
+    "retrieval_method":  "direct HTTPS retrieval by PowerShell Invoke-WebRequest; content-marker and challenge-page checks applied",
+    "artifact_path":  "00-constitutional-source/records/official-source-snapshots/nara-amendments-11-27.html",
+    "sha256":  "db24e97dcba061b97542b2c143e41ae1837c1dcb944a8694278e08bdc5e7bf39",
+    "media_type":  "text/html",
+    "representation_status":  "retrieved",
+    "known_limitations":  [
+                              "This is an official NARA transcript representation retrieved at the recorded time.",
+                              "The preserved representation is not a substitute for the original document or for legal interpretation.",
+                              "No constitutional meaning or operative legal conclusion is asserted by this record."
+                          ],
+    "review_status":  "queued"
+}

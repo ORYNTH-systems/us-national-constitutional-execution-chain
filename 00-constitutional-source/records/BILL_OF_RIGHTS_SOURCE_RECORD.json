@@ -1,0 +1,13 @@
+{
+    "record_id":  "NCEC-CS-BILL-OF-RIGHTS-001",
+    "record_type":  "constitutional_source_representation",
+    "title":  "Bill of Rights â€” National Archives transcript representation",
+    "source_attestation_record_id":  "NCEC-SRC-ATTEST-NARA-BILL-OF-RIGHTS-001",
+    "source_locator":  "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+    "preserved_artifact_path":  "00-constitutional-source/records/official-source-snapshots/nara-bill-of-rights-transcript.html",
+    "preserved_artifact_sha256":  "ce1f8ec0ddc9afd9fa2c9ae2c2e57cce786ad5bd2e75b8cfea36b6c5451d5b51",
+    "retrieved_at":  "2026-09-22T06:12:06.9952615Z",
+    "scope":  "Transcript representation only; source acquisition and provenance layer.",
+    "interpretation_status":  "not_interpreted",
+    "admission_status":  "retrieved_pending_review"
+}

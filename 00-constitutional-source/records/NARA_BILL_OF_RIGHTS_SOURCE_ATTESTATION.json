@@ -1,0 +1,17 @@
+{
+    "record_id":  "NCEC-SRC-ATTEST-NARA-BILL-OF-RIGHTS-001",
+    "official_publisher":  "National Archives and Records Administration",
+    "canonical_locator":  "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+    "retrieved_at":  "2026-09-22T06:12:06.9952615Z",
+    "retrieval_method":  "direct HTTPS retrieval by PowerShell Invoke-WebRequest; content-marker and challenge-page checks applied",
+    "artifact_path":  "00-constitutional-source/records/official-source-snapshots/nara-bill-of-rights-transcript.html",
+    "sha256":  "ce1f8ec0ddc9afd9fa2c9ae2c2e57cce786ad5bd2e75b8cfea36b6c5451d5b51",
+    "media_type":  "text/html",
+    "representation_status":  "retrieved",
+    "known_limitations":  [
+                              "This is an official NARA transcript representation retrieved at the recorded time.",
+                              "The preserved representation is not a substitute for the original document or for legal interpretation.",
+                              "No constitutional meaning or operative legal conclusion is asserted by this record."
+                          ],
+    "review_status":  "queued"
+}

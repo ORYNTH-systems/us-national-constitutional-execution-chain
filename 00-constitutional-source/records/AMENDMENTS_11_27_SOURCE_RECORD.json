@@ -1,0 +1,13 @@
+{
+    "record_id":  "NCEC-CS-AMENDMENTS-11-27-001",
+    "record_type":  "constitutional_source_representation",
+    "title":  "Amendments 11â€“27 â€” National Archives transcript representation",
+    "source_attestation_record_id":  "NCEC-SRC-ATTEST-NARA-AMENDMENTS-11-27-001",
+    "source_locator":  "https://www.archives.gov/founding-docs/amendments-11-27",
+    "preserved_artifact_path":  "00-constitutional-source/records/official-source-snapshots/nara-amendments-11-27.html",
+    "preserved_artifact_sha256":  "db24e97dcba061b97542b2c143e41ae1837c1dcb944a8694278e08bdc5e7bf39",
+    "retrieved_at":  "2026-09-22T06:12:07.3089013Z",
+    "scope":  "Transcript representation only; source acquisition and provenance layer.",
+    "interpretation_status":  "not_interpreted",
+    "admission_status":  "retrieved_pending_review"
+}
