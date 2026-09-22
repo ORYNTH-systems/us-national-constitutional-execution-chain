@@ -1,0 +1,10 @@
+[
+  { "test_id": "PE-001", "condition": "objective_without_appropriation", "expected": "BLOCK" },
+  { "test_id": "PE-002", "condition": "obligation_without_funds_link", "expected": "BLOCK" },
+  { "test_id": "PE-003", "condition": "payment_without_outcome_receipt", "expected": "BLOCK" },
+  { "test_id": "PE-004", "condition": "agency_action_without_authority_path", "expected": "BLOCK" },
+  { "test_id": "PE-005", "condition": "procedure_unresolved", "expected": "BLOCK" },
+  { "test_id": "PE-006", "condition": "external_actor_without_public_principal", "expected": "BLOCK" },
+  { "test_id": "PE-007", "condition": "external_scope_exceeded", "expected": "BLOCK" },
+  { "test_id": "PE-008", "condition": "complete_public_execution_chain", "expected": "ELIGIBLE_FOR_NEXT_GATE" }
+]

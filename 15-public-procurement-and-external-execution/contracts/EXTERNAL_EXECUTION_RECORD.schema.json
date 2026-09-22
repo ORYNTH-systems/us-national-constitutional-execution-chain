@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "External Execution Record",
+  "type": "object",
+  "required": ["record_id", "public_principal_ref", "external_actor_ref", "instrument_ref", "purpose", "scope", "oversight_ref", "status"],
+  "properties": {
+    "record_id": { "type": "string", "pattern": "^EER-[A-Z0-9-]+$" },
+    "public_principal_ref": { "type": "string", "minLength": 1 },
+    "external_actor_ref": { "type": "string", "minLength": 1 },
+    "instrument_ref": { "type": "string", "minLength": 1 },
+    "purpose": { "type": "string", "minLength": 1 },
+    "scope": { "type": "string", "minLength": 1 },
+    "public_money_refs": { "type": "array", "items": { "type": "string" } },
+    "oversight_ref": { "type": "string", "minLength": 1 },
+    "termination_or_revocation_ref": { "type": "string" },
+    "status": { "enum": ["PROPOSED", "OBSERVED", "VERIFIED", "CONTESTED", "SUSPENDED", "TERMINATED", "INVALIDATED", "CLOSED"] }
+  },
+  "additionalProperties": false
+}

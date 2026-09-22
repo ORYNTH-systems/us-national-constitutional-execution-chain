@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Public Money Outcome Receipt Record",
+  "type": "object",
+  "required": ["record_id", "public_money_ref", "claimed_outcome", "receipt_time", "provenance_refs", "status"],
+  "properties": {
+    "record_id": { "type": "string", "pattern": "^POR-[A-Z0-9-]+$" },
+    "public_money_ref": { "type": "string", "minLength": 1 },
+    "claimed_outcome": { "type": "string", "minLength": 1 },
+    "receipt_time": { "type": "string", "format": "date-time" },
+    "provenance_refs": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "status": { "enum": ["OBSERVED", "VERIFIED", "CONTESTED", "INVALIDATED", "CLOSED"] }
+  },
+  "additionalProperties": false
+}
