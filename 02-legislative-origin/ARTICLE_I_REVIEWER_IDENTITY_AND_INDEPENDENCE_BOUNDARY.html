@@ -1,0 +1,15 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Article I Reviewer Identity and Independence Boundary</title></head><body><main>
+<h1>Article I Reviewer Identity and Independence Boundary</h1>
+<p><strong>Private governance control.</strong> A reviewer evaluates repository proposals. A reviewer does not become a constitutional authority, court, legislature, executive officer, or source of law by participating.</p>
+<h2>Required reviewer identity record</h2>
+<ul><li>Stable reviewer identifier and display name.</li><li>Affiliation and relevant role.</li><li>Declared subject-matter competence.</li><li>Declared conflicts, interests, prior authorship, and dependencies.</li><li>Review scope and assignment timestamp.</li><li>Authentication or signature method used for the decision event.</li></ul>
+<h2>Independence classes</h2>
+<table><thead><tr><th>Class</th><th>Meaning</th><th>Permitted decision effect</th></tr></thead><tbody>
+<tr><td><code>AUTHOR_REVIEW</code></td><td>Reviewer authored or directed the proposal or generating rule.</td><td>May identify defects and recommend disposition; cannot alone establish independent confirmation.</td></tr>
+<tr><td><code>INTERNAL_INDEPENDENT_REVIEW</code></td><td>Reviewer is within the same project but did not generate the proposal.</td><td>May support analytical acceptance when conflicts are disclosed.</td></tr>
+<tr><td><code>EXTERNAL_SUBJECT_REVIEW</code></td><td>Reviewer is outside the project and has relevant constitutional or legal competence.</td><td>May support analytical acceptance; does not create legal authority.</td></tr>
+<tr><td><code>AUTOMATED_ASSISTANCE</code></td><td>Software or a model performs checking or proposes findings.</td><td>Advisory only; cannot issue the final review decision.</td></tr>
+</tbody></table>
+<h2>Separation requirements</h2><ul><li>Proposal generation and final decision identities remain separately recorded.</li><li>Automated assistance is disclosed by system and method.</li><li>Conflict disclosure is mandatory and cannot be replaced by confidence scoring.</li><li>Missing identity, competence, scope, conflict disclosure, or signature blocks the decision.</li></ul>
+<footer><p>Generated from commit <code>5df70ee41cec555b9ab40ddf0d6322ce0e5bfd0d</code> at <time datetime="2026-09-26T00:50:31Z">2026-09-26T00:50:31Z</time>.</p></footer>
+</main></body></html>
