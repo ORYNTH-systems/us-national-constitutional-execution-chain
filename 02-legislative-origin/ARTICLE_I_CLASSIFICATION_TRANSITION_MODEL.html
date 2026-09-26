@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Article I Classification Transition Model</title></head>
+<body>
+<main>
+<h1>Article I Classification Transition Model</h1>
+<p><strong>Private analytical state machine.</strong> Every state change requires an attributable event. No state in this model creates legal or governmental authority.</p>
+<table>
+<thead><tr><th>From</th><th>To</th><th>Required event</th><th>Guard</th></tr></thead>
+<tbody>
+<tr><td><code>UNCLASSIFIED</code></td><td><code>PROPOSED</code></td><td>Complete proposal admitted</td><td>All contract fields validate</td></tr>
+<tr><td><code>PROPOSED</code></td><td><code>IN_REVIEW</code></td><td>Reviewer accepts assignment</td><td>Reviewer identity recorded</td></tr>
+<tr><td><code>IN_REVIEW</code></td><td><code>CHANGES_REQUIRED</code></td><td>Defect finding</td><td>Finding and requested correction recorded</td></tr>
+<tr><td><code>CHANGES_REQUIRED</code></td><td><code>PROPOSED</code></td><td>New proposal version submitted</td><td>Prior version remains preserved</td></tr>
+<tr><td><code>IN_REVIEW</code></td><td><code>DISPUTED</code></td><td>Material disagreement recorded</td><td>Competing positions separately attributable</td></tr>
+<tr><td><code>IN_REVIEW</code></td><td><code>ACCEPTED_ANALYTICAL</code></td><td>Analytical acceptance decision</td><td>All Batch 22 acceptance gates pass</td></tr>
+<tr><td><code>IN_REVIEW</code></td><td><code>REJECTED</code></td><td>Rejection decision</td><td>Source-linked rejection rationale recorded</td></tr>
+<tr><td><code>DISPUTED</code></td><td><code>IN_REVIEW</code></td><td>Additional review opened</td><td>Dispute history preserved</td></tr>
+<tr><td><code>ACCEPTED_ANALYTICAL</code></td><td><code>SUPERSEDED</code></td><td>Later accepted version designated</td><td>Replacement identifier and reason recorded</td></tr>
+<tr><td><code>PROPOSED</code>, <code>IN_REVIEW</code>, <code>DISPUTED</code>, <code>ACCEPTED_ANALYTICAL</code></td><td><code>SUPERSEDED</code></td><td>Source or controlling dependency changed</td><td>Prior record remains reconstructible</td></tr>
+</tbody>
+</table>
+<h2>Forbidden transitions</h2>
+<ul><li><code>UNCLASSIFIED</code> directly to <code>ACCEPTED_ANALYTICAL</code>.</li><li><code>PROPOSED</code> directly to governmental authority.</li><li><code>DISPUTED</code> directly to accepted without renewed review.</li><li><code>REJECTED</code> back to active by mutation; a new version is required.</li><li>Any transition without actor, timestamp, prior state, new state, and rationale.</li></ul>
+<h2>Downstream rule</h2>
+<p>Even <code>ACCEPTED_ANALYTICAL</code> remains blocked from governmental effect until later authority-linking, jurisdiction, delegation, procedure, evidence, execution, and remedy gates are independently satisfied.</p>
+<footer><p>Generated from commit <code>0776995b3cf5aabedf48fc29331616cb56e3a19c</code> at <time datetime="2026-09-26T00:34:36Z">2026-09-26T00:34:36Z</time>.</p></footer>
+</main>
+</body>
+</html>

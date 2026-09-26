@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Article I Classification Proposal Contract</title></head>
+<body>
+<main>
+<h1>Article I Classification Proposal Contract</h1>
+<p><strong>Private analytical contract.</strong> A proposal record is an attributable claim about a source candidate. It is not constitutional text, accepted interpretation, legal authority, or governmental effect.</p>
+<h2>Required fields</h2>
+<table>
+<thead><tr><th>Field</th><th>Requirement</th><th>Failure behavior</th></tr></thead>
+<tbody>
+<tr><td><code>proposal_id</code></td><td>Unique, immutable identifier.</td><td>Block</td></tr>
+<tr><td><code>candidate_id</code></td><td>Exact identifier from the reconstructed punctuation-candidate record.</td><td>Block</td></tr>
+<tr><td><code>parent_section</code></td><td>Article I section number consistent with the candidate identifier and source record.</td><td>Block</td></tr>
+<tr><td><code>source_text</code></td><td>Exact normalized candidate text.</td><td>Block</td></tr>
+<tr><td><code>source_sha256</code></td><td>SHA-256 of the normalized UTF-8 source text.</td><td>Block</td></tr>
+<tr><td><code>proposed_label</code></td><td>One controlled code from the Batch 22 vocabulary.</td><td>Block</td></tr>
+<tr><td><code>rationale</code></td><td>Source-bounded explanation that does not claim legal effect.</td><td>Block</td></tr>
+<tr><td><code>dependencies</code></td><td>All known cross-references, conditions, exceptions, and unresolved predicates.</td><td>Block when omitted; preserve empty only when expressly reviewed as none identified</td></tr>
+<tr><td><code>rights_impact</code></td><td><code>YES</code>, <code>NO</code>, or <code>UNRESOLVED</code>, with rationale.</td><td>Block when unresolved from downstream use</td></tr>
+<tr><td><code>proposer</code></td><td>Attributable human or system identity; automated origin must be explicit.</td><td>Block</td></tr>
+<tr><td><code>proposed_at</code></td><td>UTC timestamp.</td><td>Block</td></tr>
+<tr><td><code>state</code></td><td>Valid state from the transition model.</td><td>Block</td></tr>
+</tbody>
+</table>
+<h2>Identity and immutability</h2>
+<p>A proposal identifier binds one candidate, one label, one rationale version, and one source hash. Changing any bound value creates a new proposal version; it does not silently mutate the prior record.</p>
+<h2>Multiplicity</h2>
+<p>A candidate may have multiple proposals. Each proposed label remains an independent record with independent rationale, dependencies, review state, and history.</p>
+<h2>Prohibited claims</h2>
+<ul><li>A proposal must not state that it is the Constitution.</li><li>A proposal must not state that acceptance creates legal authority.</li><li>A proposal must not erase alternative or rejected readings.</li><li>A model confidence score must not substitute for review.</li></ul>
+<footer><p>Generated from commit <code>0776995b3cf5aabedf48fc29331616cb56e3a19c</code> at <time datetime="2026-09-26T00:34:36Z">2026-09-26T00:34:36Z</time>.</p></footer>
+</main>
+</body>
+</html>
