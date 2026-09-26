@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Article I Classification Review Gate</title>
+</head>
+<body>
+  <main>
+    <h1>Article I Classification Review Gate</h1>
+    <p><strong>Private review control.</strong> No classification may enter an authority chain merely because it was generated, proposed, scored, or reviewed.</p>
+    <h2>Review states</h2>
+    <table>
+      <thead><tr><th>State</th><th>Meaning</th><th>Downstream authority use</th></tr></thead>
+      <tbody>
+        <tr><td><code>UNCLASSIFIED</code></td><td>No proposal has been admitted.</td><td>Blocked</td></tr>
+        <tr><td><code>PROPOSED</code></td><td>A source-linked proposal exists but has not passed review.</td><td>Blocked</td></tr>
+        <tr><td><code>IN_REVIEW</code></td><td>A reviewer is testing source fit, dependencies, exclusions, and conflicts.</td><td>Blocked</td></tr>
+        <tr><td><code>CHANGES_REQUIRED</code></td><td>The proposal is incomplete, overstated, unsupported, or improperly bounded.</td><td>Blocked</td></tr>
+        <tr><td><code>DISPUTED</code></td><td>Material reviewer disagreement remains recorded.</td><td>Blocked</td></tr>
+        <tr><td><code>ACCEPTED_ANALYTICAL</code></td><td>The label is accepted only as a repository analytical classification.</td><td>Blocked unless a later, separate authority-linking gate is satisfied</td></tr>
+        <tr><td><code>REJECTED</code></td><td>The proposal failed review; rationale remains preserved.</td><td>Blocked</td></tr>
+        <tr><td><code>SUPERSEDED</code></td><td>A later reviewed record replaces this record without deleting its history.</td><td>Blocked</td></tr>
+      </tbody>
+    </table>
+    <h2>Admission gate</h2>
+    <p>A proposal may enter review only when its parent, candidate, source span, label, rationale, dependencies, proposer, and time are present and internally consistent. Missing fields produce <code>CHANGES_REQUIRED</code>, not inference.</p>
+    <h2>Acceptance gate</h2>
+    <ol>
+      <li>The proposed label exists in the controlled vocabulary.</li>
+      <li>The quoted span matches the preserved candidate text.</li>
+      <li>The rationale does not exceed the quoted source.</li>
+      <li>Conditions, exceptions, cross-references, and rights-impact flags are explicit.</li>
+      <li>Contrary readings and material uncertainty are recorded.</li>
+      <li>The reviewer is identified and distinct from any automated system that generated the proposal.</li>
+      <li>The decision, rationale, timestamp, and prior state are preserved.</li>
+    </ol>
+    <h2>Disagreement handling</h2>
+    <ul>
+      <li>Material disagreement changes the state to <code>DISPUTED</code>.</li>
+      <li>Each position remains separately attributable and source-linked.</li>
+      <li>No majority count, confidence score, or model output resolves a constitutional disagreement by itself.</li>
+      <li>Resolution requires a recorded review decision and may still preserve minority or alternative readings.</li>
+    </ul>
+    <h2>Fail-closed rules</h2>
+    <ul>
+      <li>Unknown source, missing source, or source mismatch: block.</li>
+      <li>Unknown label or altered vocabulary: block.</li>
+      <li>Unresolved dependency, exception, conflict, or rights impact: block.</li>
+      <li>Missing reviewer identity, rationale, state transition, or timestamp: block.</li>
+      <li>Automated proposal without responsible human review: block.</li>
+      <li>Stale, superseded, rejected, or disputed record: block.</li>
+      <li>Attempt to treat analytical acceptance as legal authority: block.</li>
+    </ul>
+    <h2>Permitted output of this gate</h2>
+    <p>The highest state produced here is <code>ACCEPTED_ANALYTICAL</code>. Any later claim that a constitutional unit supports governmental action must pass a separate authority-linking process covering current law, office, jurisdiction, delegation, procedure, evidence, effect, and remedy.</p>
+    <footer><p>Generated from repository commit <code>c87edce6845405eb9bc775672e6a852071901ce1</code> at <time datetime="2026-09-26T00:30:02Z">2026-09-26T00:30:02Z</time>.</p></footer>
+  </main>
+</body>
+</html>
