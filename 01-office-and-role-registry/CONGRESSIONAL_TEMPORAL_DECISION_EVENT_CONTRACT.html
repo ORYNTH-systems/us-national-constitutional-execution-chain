@@ -1,0 +1,14 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Congressional Temporal Decision Event Contract</title></head><body><main><h1>Congressional Temporal Decision Event Contract</h1>
+<p>A temporal decision event is a private review record, not constitutional text, law, an appointment, a membership determination, or governmental action.</p>
+<h2>Required fields</h2>
+<ul>
+<li>packet identifier and source candidate identifiers;</li>
+<li>verified reviewer identity and independence state;</li>
+<li>decision state, rationale, evidence references, and source hashes;</li>
+<li>observation time, claimed effective interval, and uncertainty statement;</li>
+<li>conflict disposition and a second review when escalation is required.</li>
+</ul>
+<h2>Permitted decision states</h2>
+<p><code>CONFIRMED_FOR_INTERVAL</code>, <code>REJECTED_AS_UNSUPPORTED</code>, <code>SUPERSEDED</code>, <code>CONFLICT_UNRESOLVED</code>, or <code>ABSTAINED</code>.</p>
+<h2>Fail-closed rule</h2>
+<p>Missing identity, independence, evidence, source hash, effective interval, rationale, or required concurrence produces no decision event and no downstream admission.</p></main></body></html>
