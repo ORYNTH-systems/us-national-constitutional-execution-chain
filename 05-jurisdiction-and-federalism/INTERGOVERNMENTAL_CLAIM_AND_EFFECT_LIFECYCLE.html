@@ -1,0 +1,35 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Intergovernmental Claim and Effect Lifecycle</title></head><body><main><h1>Intergovernmental Claim and Effect Lifecycle</h1><table><thead><tr><th>State</th><th>Name</th><th>Automatic advance</th></tr></thead><tbody><tr><td><code>FED-LIFE-001</code></td><td><code>CLAIM_RECEIVED</code></td><td><code>NO_AUTOMATIC_ADVANCE</code></td></tr>
+<tr><td><code>FED-LIFE-002</code></td><td><code>ACTOR_IDENTITY_PENDING</code></td><td><code>NO_AUTOMATIC_ADVANCE</code></td></tr>
+<tr><td><code>FED-LIFE-003</code></td><td><code>STATUS_PENDING</code></td><td><code>NO_AUTOMATIC_ADVANCE</code></td></tr>
+<tr><td><code>FED-LIFE-004</code></td><td><code>SOURCE_PENDING</code></td><td><code>NO_AUTOMATIC_ADVANCE</code></td></tr>
+<tr><td><code>FED-LIFE-005</code></td><td><code>JURISDICTION_PENDING</code></td><td><code>NO_AUTOMATIC_ADVANCE</code></td></tr>
+<tr><td><code>FED-LIFE-006</code></td><td><code>EVIDENCE_PENDING</code></td><td><code>NO_AUTOMATIC_ADVANCE</code></td></tr>
+<tr><td><code>FED-LIFE-007</code></td><td><code>CONFLICT_PENDING</code></td><td><code>NO_AUTOMATIC_ADVANCE</code></td></tr>
+<tr><td><code>FED-LIFE-008</code></td><td><code>REVIEW_PENDING</code></td><td><code>NO_AUTOMATIC_ADVANCE</code></td></tr>
+<tr><td><code>FED-LIFE-009</code></td><td><code>DECISION_PENDING</code></td><td><code>NO_AUTOMATIC_ADVANCE</code></td></tr>
+<tr><td><code>FED-LIFE-010</code></td><td><code>EFFECT_PENDING</code></td><td><code>NO_AUTOMATIC_ADVANCE</code></td></tr>
+<tr><td><code>FED-LIFE-011</code></td><td><code>BLOCKED</code></td><td><code>NO_AUTOMATIC_ADVANCE</code></td></tr>
+<tr><td><code>FED-LIFE-012</code></td><td><code>RESOLVED_WITH_PROOF</code></td><td><code>NO_AUTOMATIC_ADVANCE</code></td></tr></tbody></table><h2>Fail-closed stops</h2><table><thead><tr><th>Stop</th><th>Trigger</th><th>Effect</th></tr></thead><tbody><tr><td><code>FED-STOP-001</code></td><td><code>ENTITY_OR_STATUS_UNRESOLVED</code></td><td><code>BLOCK_CONSEQUENTIAL_EXECUTION</code></td></tr>
+<tr><td><code>FED-STOP-002</code></td><td><code>AUTHORITY_SOURCE_UNRESOLVED</code></td><td><code>BLOCK_CONSEQUENTIAL_EXECUTION</code></td></tr>
+<tr><td><code>FED-STOP-003</code></td><td><code>GEOGRAPHIC_JURISDICTION_UNRESOLVED</code></td><td><code>BLOCK_CONSEQUENTIAL_EXECUTION</code></td></tr>
+<tr><td><code>FED-STOP-004</code></td><td><code>SUBJECT_MATTER_JURISDICTION_UNRESOLVED</code></td><td><code>BLOCK_CONSEQUENTIAL_EXECUTION</code></td></tr>
+<tr><td><code>FED-STOP-005</code></td><td><code>AUTHENTIC_RECORD_MISSING</code></td><td><code>BLOCK_CONSEQUENTIAL_EXECUTION</code></td></tr>
+<tr><td><code>FED-STOP-006</code></td><td><code>INTERSTATE_EFFECT_UNRESOLVED</code></td><td><code>BLOCK_CONSEQUENTIAL_EXECUTION</code></td></tr>
+<tr><td><code>FED-STOP-007</code></td><td><code>RIGHT_OR_COMPARATOR_UNRESOLVED</code></td><td><code>BLOCK_CONSEQUENTIAL_EXECUTION</code></td></tr>
+<tr><td><code>FED-STOP-008</code></td><td><code>RENDITION_PROCESS_INCOMPLETE</code></td><td><code>BLOCK_CONSEQUENTIAL_EXECUTION</code></td></tr>
+<tr><td><code>FED-STOP-009</code></td><td><code>STATE_ADMISSION_PREREQUISITE_MISSING</code></td><td><code>BLOCK_CONSEQUENTIAL_EXECUTION</code></td></tr>
+<tr><td><code>FED-STOP-010</code></td><td><code>TERRITORY_OR_PROPERTY_IDENTITY_UNRESOLVED</code></td><td><code>BLOCK_CONSEQUENTIAL_EXECUTION</code></td></tr>
+<tr><td><code>FED-STOP-011</code></td><td><code>GUARANTEE_TRIGGER_OR_ACTOR_UNRESOLVED</code></td><td><code>BLOCK_CONSEQUENTIAL_EXECUTION</code></td></tr>
+<tr><td><code>FED-STOP-012</code></td><td><code>PROTECTION_TRIGGER_OR_REQUEST_UNRESOLVED</code></td><td><code>BLOCK_CONSEQUENTIAL_EXECUTION</code></td></tr>
+<tr><td><code>FED-STOP-013</code></td><td><code>COMPACT_IDENTITY_OR_CONSENT_UNRESOLVED</code></td><td><code>BLOCK_CONSEQUENTIAL_EXECUTION</code></td></tr>
+<tr><td><code>FED-STOP-014</code></td><td><code>TRIBAL_STATUS_OR_RELATION_UNRESOLVED</code></td><td><code>BLOCK_CONSEQUENTIAL_EXECUTION</code></td></tr>
+<tr><td><code>FED-STOP-015</code></td><td><code>TREATY_STATUS_OR_SCOPE_UNRESOLVED</code></td><td><code>BLOCK_CONSEQUENTIAL_EXECUTION</code></td></tr>
+<tr><td><code>FED-STOP-016</code></td><td><code>ENUMERATED_POWER_UNRESOLVED</code></td><td><code>BLOCK_CONSEQUENTIAL_EXECUTION</code></td></tr>
+<tr><td><code>FED-STOP-017</code></td><td><code>RESERVED_POWER_BOUNDARY_UNRESOLVED</code></td><td><code>BLOCK_CONSEQUENTIAL_EXECUTION</code></td></tr>
+<tr><td><code>FED-STOP-018</code></td><td><code>FEDERAL_LAW_OPERABILITY_UNRESOLVED</code></td><td><code>BLOCK_CONSEQUENTIAL_EXECUTION</code></td></tr>
+<tr><td><code>FED-STOP-019</code></td><td><code>PREEMPTION_TYPE_OR_SCOPE_UNRESOLVED</code></td><td><code>BLOCK_CONSEQUENTIAL_EXECUTION</code></td></tr>
+<tr><td><code>FED-STOP-020</code></td><td><code>IMMUNITY_OR_EXCEPTION_UNRESOLVED</code></td><td><code>BLOCK_CONSEQUENTIAL_EXECUTION</code></td></tr>
+<tr><td><code>FED-STOP-021</code></td><td><code>STATE_ACTION_OR_RIGHT_UNRESOLVED</code></td><td><code>BLOCK_CONSEQUENTIAL_EXECUTION</code></td></tr>
+<tr><td><code>FED-STOP-022</code></td><td><code>DECISION_FINALITY_UNRESOLVED</code></td><td><code>BLOCK_CONSEQUENTIAL_EXECUTION</code></td></tr>
+<tr><td><code>FED-STOP-023</code></td><td><code>ENFORCEMENT_AUTHORITY_UNRESOLVED</code></td><td><code>BLOCK_CONSEQUENTIAL_EXECUTION</code></td></tr>
+<tr><td><code>FED-STOP-024</code></td><td><code>CAPABILITY_ONLY_NO_AUTHORITY</code></td><td><code>BLOCK_CONSEQUENTIAL_EXECUTION</code></td></tr></tbody></table></main></body></html>
