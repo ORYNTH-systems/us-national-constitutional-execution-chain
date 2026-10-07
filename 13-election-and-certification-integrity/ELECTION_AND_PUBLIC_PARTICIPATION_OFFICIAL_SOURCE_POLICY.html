@@ -1,0 +1,18 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Election and Public Participation Official Source Policy</title></head><body><main><h1>Election and Public Participation Official Source Policy</h1><p>Election facts and legal effects may advance only from an authenticated artifact issued or maintained by a source competent for the exact predicate asserted. Official publication proves neither present validity nor downstream effect by itself. Jurisdiction, authority, event identity, completeness, effective time, conflict, supersession, challenge status, finality, and predicate coverage remain separate proof obligations.</p><p>News, search results, projections, campaign statements, party statements, social posts, unofficial mirrors, database matches, screenshots, and observations may identify a candidate lead. They cannot establish voter status, candidacy, ballot content, custody, count, result, elector status, contest outcome, officeholding, authority, or governmental effect.</p><p>Default: <code>NO_CURRENT_ELECTION_FACT_OR_EFFECT_ADMITTED</code>.</p><h2>Fail-closed rejection codes</h2><table><thead><tr><th>ID</th><th>Condition</th><th>Effect</th></tr></thead><tbody><tr><td><code>ELX-REJECT-001</code></td><td><code>UNOFFICIAL_OR_UNKNOWN_PUBLISHER</code></td><td><code>BLOCK</code></td></tr>
+<tr><td><code>ELX-REJECT-002</code></td><td><code>MIRROR_WITHOUT_OFFICIAL_CORROBORATION</code></td><td><code>BLOCK</code></td></tr>
+<tr><td><code>ELX-REJECT-003</code></td><td><code>SEARCH_SNIPPET_ONLY</code></td><td><code>BLOCK</code></td></tr>
+<tr><td><code>ELX-REJECT-004</code></td><td><code>PRESS_REPORT_ONLY</code></td><td><code>BLOCK</code></td></tr>
+<tr><td><code>ELX-REJECT-005</code></td><td><code>CAMPAIGN_OR_PARTY_ASSERTION_ONLY</code></td><td><code>BLOCK</code></td></tr>
+<tr><td><code>ELX-REJECT-006</code></td><td><code>SOCIAL_MEDIA_ASSERTION_ONLY</code></td><td><code>BLOCK</code></td></tr>
+<tr><td><code>ELX-REJECT-007</code></td><td><code>PROJECTION_OR_FORECAST_ONLY</code></td><td><code>BLOCK</code></td></tr>
+<tr><td><code>ELX-REJECT-008</code></td><td><code>DATABASE_MATCH_WITHOUT_COMPETENT_RECORD</code></td><td><code>BLOCK</code></td></tr>
+<tr><td><code>ELX-REJECT-009</code></td><td><code>MISSING_JURISDICTION</code></td><td><code>BLOCK</code></td></tr>
+<tr><td><code>ELX-REJECT-010</code></td><td><code>MISSING_EVENT_IDENTITY</code></td><td><code>BLOCK</code></td></tr>
+<tr><td><code>ELX-REJECT-011</code></td><td><code>MISSING_EFFECTIVE_TIME</code></td><td><code>BLOCK</code></td></tr>
+<tr><td><code>ELX-REJECT-012</code></td><td><code>MISSING_RETRIEVAL_TIME</code></td><td><code>BLOCK</code></td></tr>
+<tr><td><code>ELX-REJECT-013</code></td><td><code>MISSING_CONTENT_HASH</code></td><td><code>BLOCK</code></td></tr>
+<tr><td><code>ELX-REJECT-014</code></td><td><code>PARTIAL_OR_TRUNCATED_ARTIFACT</code></td><td><code>BLOCK</code></td></tr>
+<tr><td><code>ELX-REJECT-015</code></td><td><code>CONFLICT_UNRESOLVED</code></td><td><code>BLOCK</code></td></tr>
+<tr><td><code>ELX-REJECT-016</code></td><td><code>SUPERSESSION_UNRESOLVED</code></td><td><code>BLOCK</code></td></tr>
+<tr><td><code>ELX-REJECT-017</code></td><td><code>AUTHORITY_INFERRED_FROM_CAPABILITY</code></td><td><code>BLOCK</code></td></tr>
+<tr><td><code>ELX-REJECT-018</code></td><td><code>RESULT_OR_EFFECT_INFERRED_FROM_REPORTING</code></td><td><code>BLOCK</code></td></tr></tbody></table></main></body></html>
