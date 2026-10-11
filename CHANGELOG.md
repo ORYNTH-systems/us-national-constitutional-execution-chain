@@ -4,6 +4,17 @@ This log records versioned repository changes. It does not transform unresolved 
 
 ## Unreleased
 
+## v1.1.1 — 2026-10-10
+
+### Added
+
+- Hash-verified 5:2 public hero image and a README visual entry.
+
+### Preserved
+
+- v1.0.0 frozen framework baseline and v1.1.0 public-interface/adoption-readiness release.
+
+
 ## v1.1.0 — 2026-10-10
 
 ### Added

@@ -1,4 +1,6 @@
 <!-- NCEC_PUBLIC_ENTRY_START -->
+![National Constitutional Execution Reference Framework v1.0.0](assets/ncec-public-interface-hero-5x2.png)
+
 ## Start here
 
 **v1.0.0 is a released, reconstructible, fail-closed reference framework—not a live governmental system and not a claim of governmental authority.**
