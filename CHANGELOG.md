@@ -4,6 +4,11 @@ This log records versioned repository changes. It does not transform unresolved 
 
 ## Unreleased
 
+## v1.1.3 - 2026-10-10
+
+- Added a public authorship and origin statement identifying Ashley S. Harris and ORYNTH Systems, the framework's methodological origin, and its independent non-operational boundary.
+
+
 ## v1.1.2 - 2026-10-10
 
 ### Corrected

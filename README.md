@@ -16,6 +16,12 @@ Public governance and participation materials: [Governance](GOVERNANCE.md), [Con
 **Public interface release:** [v1.1.0 public-interface map](00-system-map/NATIONAL_EXECUTION_REFERENCE_FRAMEWORK_PUBLIC_INTERFACE_V1_1_0_MAP.html) and [release boundary](22-freeze-and-releases/NATIONAL_EXECUTION_REFERENCE_FRAMEWORK_V1_1_0_PUBLIC_INTERFACE_RELEASE.html). The underlying complete reference-framework baseline remains [v1.0.0](22-freeze-and-releases/NATIONAL_CONSTITUTIONAL_EXECUTION_REFERENCE_FRAMEWORK_V1_0_0_RELEASE.html).
 
 <!-- NCEC_V1_1_RELEASE_ENTRY_END -->
+
+<!-- NCEC_ABOUT_ENTRY_START -->
+## About the author
+
+This framework was created by [Ashley S. Harris](ABOUT.md), an independent systems researcher and founder and principal of ORYNTH Systems. Her work examines execution governance: how authority, evidence, decision, and consequential effect remain distinguishable, attributable, and reviewable in human and automated systems. Read the complete [origin and authorship statement](ABOUT.md).
+<!-- NCEC_ABOUT_ENTRY_END -->
 # U.S. National Constitutional Execution Chain
 
 **Status:** v1.0.0 framework baseline — non-operational reference architecture
