@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "National Constitutional Execution Reference Framework"
+version: "1.0.0"
+date-released: 2026-10-10
+type: software
+authors:
+  - family-names: Harris
+    given-names: Ashley S.
+    orcid: "https://orcid.org/0009-0000-4470-9941"
+repository-code: "https://github.com/ORYNTH-systems/us-national-constitutional-execution-chain"
+url: "https://github.com/ORYNTH-systems/us-national-constitutional-execution-chain"
+license: "See repository LICENSE"
+abstract: "A reconstructible, fail-closed national constitutional execution reference framework."

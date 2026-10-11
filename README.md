@@ -6,6 +6,9 @@
 New readers should begin with [PUBLIC_START_HERE.md](PUBLIC_START_HERE.md), then the [executive overview](00-system-map/NATIONAL_EXECUTION_FRAMEWORK_EXECUTIVE_OVERVIEW.html), [public system entry](00-system-map/NATIONAL_EXECUTION_FRAMEWORK_PUBLIC_ENTRY.html), and [repository reader guide](00-system-map/NATIONAL_EXECUTION_FRAMEWORK_REPOSITORY_READER_GUIDE.html).
 
 <!-- NCEC_PUBLIC_ENTRY_END -->
+<!-- NCEC_GOVERNANCE_ENTRY_START -->
+Public governance and participation materials: [Governance](GOVERNANCE.md), [Contribution boundary](CONTRIBUTING.md), [Security reporting](SECURITY.md), [Citation](CITATION.cff), and [Changelog](CHANGELOG.md).
+<!-- NCEC_GOVERNANCE_ENTRY_END -->
 # U.S. National Constitutional Execution Chain
 
 **Status:** 0.1.0 scaffold Ã¢â‚¬â€ non-authoritative design layer
