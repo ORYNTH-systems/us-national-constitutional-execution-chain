@@ -18,13 +18,13 @@ Public governance and participation materials: [Governance](GOVERNANCE.md), [Con
 <!-- NCEC_V1_1_RELEASE_ENTRY_END -->
 # U.S. National Constitutional Execution Chain
 
-**Status:** 0.1.0 scaffold Ã¢â‚¬â€ non-authoritative design layer
+**Status:** v1.0.0 framework baseline — non-operational reference architecture
 
 This repository is the operational-integrity companion to the U.S. Constitution. It does not amend, interpret conclusively, replace, or confer authority under the Constitution. The Constitution remains the immutable foundational source; lawful institutions retain their actual legal roles.
 
 Its purpose is narrower and practical: make consequential public action reconstructible as a traceable chain:
 
-`source Ã¢â€ â€™ office Ã¢â€ â€™ jurisdiction Ã¢â€ â€™ delegation Ã¢â€ â€™ procedure Ã¢â€ â€™ evidence Ã¢â€ â€™ admissibility Ã¢â€ â€™ execution Ã¢â€ â€™ effect Ã¢â€ â€™ provenance Ã¢â€ â€™ review/remedy`
+`source → office → jurisdiction → delegation → procedure → evidence → admissibility → execution → effect → provenance → review/remedy`
 
 ## Design rules
 
@@ -40,9 +40,9 @@ Its purpose is narrower and practical: make consequential public action reconstr
 
 Each domain contains:
 
-- `contracts/` Ã¢â‚¬â€ typed requirements and prohibited transitions;
-- `records/` Ã¢â‚¬â€ admitted, versioned public or internal records; and
-- a domain README Ã¢â‚¬â€ scope, entry conditions, required links, and failure states.
+- `contracts/` — typed requirements and prohibited transitions;
+- `records/` — admitted, versioned public or internal records; and
+- a domain README — scope, entry conditions, required links, and failure states.
 
 No record may assert a legal conclusion merely because it is present here. This system records provenance and tests chain completeness; it does not substitute for the Constitution, Congress, courts, agencies, states, or the people.
 

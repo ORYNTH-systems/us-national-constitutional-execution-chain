@@ -4,6 +4,13 @@ This log records versioned repository changes. It does not transform unresolved 
 
 ## Unreleased
 
+## v1.1.2 - 2026-10-10
+
+### Corrected
+
+- Restored intended UTF-8 punctuation and accurate status wording in the root README public entry.
+
+
 ## v1.1.1 — 2026-10-10
 
 ### Added
