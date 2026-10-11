@@ -9,6 +9,11 @@ New readers should begin with [PUBLIC_START_HERE.md](PUBLIC_START_HERE.md), then
 <!-- NCEC_GOVERNANCE_ENTRY_START -->
 Public governance and participation materials: [Governance](GOVERNANCE.md), [Contribution boundary](CONTRIBUTING.md), [Security reporting](SECURITY.md), [Citation](CITATION.cff), and [Changelog](CHANGELOG.md).
 <!-- NCEC_GOVERNANCE_ENTRY_END -->
+<!-- NCEC_V1_1_RELEASE_ENTRY_START -->
+
+**Public interface release:** [v1.1.0 public-interface map](00-system-map/NATIONAL_EXECUTION_REFERENCE_FRAMEWORK_PUBLIC_INTERFACE_V1_1_0_MAP.html) and [release boundary](22-freeze-and-releases/NATIONAL_EXECUTION_REFERENCE_FRAMEWORK_V1_1_0_PUBLIC_INTERFACE_RELEASE.html). The underlying complete reference-framework baseline remains [v1.0.0](22-freeze-and-releases/NATIONAL_CONSTITUTIONAL_EXECUTION_REFERENCE_FRAMEWORK_V1_0_0_RELEASE.html).
+
+<!-- NCEC_V1_1_RELEASE_ENTRY_END -->
 # U.S. National Constitutional Execution Chain
 
 **Status:** 0.1.0 scaffold Ã¢â‚¬â€ non-authoritative design layer

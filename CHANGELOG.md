@@ -4,6 +4,19 @@ This log records versioned repository changes. It does not transform unresolved 
 
 ## Unreleased
 
+## v1.1.0 — 2026-10-10
+
+### Added
+
+- Public repository entry, executive orientation, reader guide, and namespace map.
+- Institutional adoption paths, applicability matrix, bounded-pilot readiness, implementation boundary, and non-operational walkthrough.
+- Governance, contribution, security, citation, and release-ecology materials.
+
+### Preserved
+
+- The separately tagged v1.0.0 frozen framework baseline and all open human-review obligations.
+
+
 ### Added
 
 - Public entry, executive overview, repository reader guide, and namespace-preservation map.
