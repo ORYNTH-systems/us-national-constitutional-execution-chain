@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Declaration Foundational Claim",
+  "type": "object",
+  "required": [
+    "claim_id",
+    "source_kind",
+    "source_id",
+    "source_span",
+    "claimed_binding"
+  ],
+  "properties": {
+    "claim_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_kind": {
+      "enum": [
+        "FOUNDATIONAL",
+        "BINDING",
+        "ASSESSMENT"
+      ]
+    },
+    "source_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_span": {
+      "type": "string",
+      "minLength": 1
+    },
+    "claimed_binding": {
+      "type": "boolean"
+    },
+    "legal_basis_id": {
+      "type": "string"
+    },
+    "verified": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false
+}
