@@ -1,2 +1,2 @@
-source_id,document,publisher,official_locator,acquisition_status,retrieved_at_utc,sha256,representation_path,verification_status
-DECL-1776-NA,Declaration of Independence,National Archives,https://www.archives.gov/founding-docs/declaration-transcript,PENDING_RETRIEVAL,,,,UNVERIFIED
+﻿"source_id","document","publisher","official_locator","acquisition_status","retrieved_at_utc","sha256","representation_path","verification_status"
+"DECL-1776-NA","Declaration of Independence","National Archives","https://www.archives.gov/founding-docs/declaration-transcript","ACQUIRED","2026-11-17T07:12:24.7749590Z","FFEC4B985DDD18AB625E227F515E3AFDE76585CAEB6761C8D528D1F3CFFF4B33","evidence/national-archives-declaration-transcript.html","HASH_VERIFIED"

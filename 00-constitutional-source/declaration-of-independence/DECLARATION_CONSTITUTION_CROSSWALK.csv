@@ -1,1 +1,4 @@
-crosswalk_id,principle_or_grievance_id,constitutional_provision,relationship,legal_effect,independent_authority_source,review_status
+﻿"crosswalk_id","principle_or_grievance_id","constitutional_provision","relationship","legal_effect","independent_authority_source","review_status"
+"DECL-CW-001","DECL-PR-002","US-CONST:PREAMBLE","Proposed relationship between popular sovereignty and constitutional establishment","NONE_INFERRED","national-archives-constitution-transcript.html#HTML:L373","SOURCE_ANCHORED_PENDING_REVIEW"
+"DECL-CW-002","DECL-GR-009","US-CONST:ARTICLE-III-SECTION-1","Proposed relationship between historical judicial dependence grievance and constitutional judicial tenure","NONE_INFERRED","national-archives-constitution-transcript.html#HTML:L543","SOURCE_ANCHORED_PENDING_REVIEW"
+"DECL-CW-003","DECL-GR-018","US-CONST:AMENDMENT-VII","Proposed relationship between historical jury-trial grievance and constitutional civil jury protection","NONE_INFERRED","national-archives-bill-of-rights-transcript.html#HTML:L447","SOURCE_ANCHORED_PENDING_REVIEW"
