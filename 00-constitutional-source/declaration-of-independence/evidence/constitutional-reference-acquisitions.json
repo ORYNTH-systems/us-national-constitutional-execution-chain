@@ -1,0 +1,16 @@
+﻿[
+    {
+        "source_url":  "https://www.archives.gov/founding-docs/constitution-transcript",
+        "file":  "national-archives-constitution-transcript.html",
+        "sha256":  "1F1312439D49932C19745D08391BE7A310B8AC00879515F50E25F75EACB63E13",
+        "acquisition_status":  "ACQUIRED",
+        "verification_status":  "HASH_RECORDED"
+    },
+    {
+        "source_url":  "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+        "file":  "national-archives-bill-of-rights-transcript.html",
+        "sha256":  "EC44DFA3908E7FB1B5E319697885169EC7C321CCB4B0C5AEF0B1D22CDF8E63F7",
+        "acquisition_status":  "ACQUIRED",
+        "verification_status":  "HASH_RECORDED"
+    }
+]
