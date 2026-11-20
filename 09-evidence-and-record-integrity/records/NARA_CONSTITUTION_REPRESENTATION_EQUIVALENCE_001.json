@@ -1,0 +1,60 @@
+{
+  "record_id": "NARA_CONSTITUTION_REPRESENTATION_EQUIVALENCE_001",
+  "record_type": "bounded_representation_equivalence",
+  "status": "VERIFIED_BY_LOCAL_DETERMINISTIC_COMPARISON",
+  "comparison_step": "191A-95-E-20E-R9K",
+  "september_source": {
+    "path": "00-constitutional-source/records/official-source-snapshots/nara-constitution-transcript.html",
+    "raw_bytes": 70546,
+    "raw_sha256": "ce0024b73950c9b7e2eed68b66b3da5cba1d3b07e8ab1f6702ff5cd27dda5b6e"
+  },
+  "november_source": {
+    "path": "00-constitutional-source/records/acquisition-events/2026-11-17-nara-reacquisition-001/constitution.html",
+    "raw_bytes": 70555,
+    "raw_sha256": "1f1312439d49932c19745d08391be7a310b8ac00879515f50e25f75eacb63e13"
+  },
+  "november_second_copy": {
+    "path": "10-congressional-authority/records/operational-sources/191A-19-20261117/nara-constitution-original.html",
+    "raw_bytes": 70555,
+    "raw_sha256": "1f1312439d49932c19745d08391be7a310b8ac00879515f50e25f75eacb63e13",
+    "byte_identical_to_november_source": true
+  },
+  "normalization": {
+    "scope": "COMPARISON_ONLY",
+    "asset_version_occurrences_per_source": 59,
+    "september_asset_token": "?tlqtk3",
+    "november_asset_token": "?toksw7",
+    "line_endings": "CRLF_TO_LF",
+    "drupal_theme_token": "REPLACE_EXACTLY_ONE_VALUE",
+    "other_transformations": "NONE"
+  },
+  "result": {
+    "exact_normalized_byte_equality": true,
+    "normalized_bytes_each": 70927,
+    "normalized_sha256_each": "8114dfaf32a9fefa0ddf6e037c4ea498bce7648fed3b299a2f76f3f3b6173315",
+    "whole_page_visible_text_equality": true,
+    "whole_page_visible_text_sha256_each": "6630cd41b53b1624ee3854c5b44533104b5e74787c4a9370e821d8c2adf6a841"
+  },
+  "unresolved_historical_claim": {
+    "claimed_september_sha256": "827d192ab2a55600210ebbedc24feac29fc396ecb2879eec1825d992a5f4d04a",
+    "digest_origin": "UNRESOLVED",
+    "original_acquisition_transaction": "NOT_ESTABLISHED"
+  },
+  "limitations": [
+    "Normalization does not alter original artifacts.",
+    "Equivalent normalized HTML does not prove independent acquisition.",
+    "Whole-page visible-text equality is not certified transcript extraction.",
+    "Official-source authentication remains pending.",
+    "This record does not authorize historical source admission.",
+    "This record does not establish governmental execution authority."
+  ],
+  "control_status": {
+    "historical_source_integrity": "OPEN_BLOCKED",
+    "SP-001": "BLOCKED",
+    "SP-004": "NOT_ESTABLISHED",
+    "source_admission": "NOT_GRANTED",
+    "authority_admissions": 0,
+    "obligation_discharges": 0,
+    "execution_permission": false
+  }
+}
