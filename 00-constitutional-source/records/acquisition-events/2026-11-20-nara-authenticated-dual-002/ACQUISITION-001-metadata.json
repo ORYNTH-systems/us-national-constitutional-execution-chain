@@ -1,0 +1,23 @@
+{
+  "event_id": "ACQUISITION-001",
+  "canonical_url": "https://www.archives.gov/founding-docs/constitution-transcript",
+  "started_at_utc": "2026-11-20T18:51:25.013596+00:00",
+  "finished_at_utc": "2026-11-20T18:51:25.528840+00:00",
+  "body_file": "ACQUISITION-001-body.html",
+  "headers_file": "ACQUISITION-001-headers.txt",
+  "body_bytes": 70555,
+  "body_sha256": "a106eed5bdb87e79383a62ae9c1bb9a634455fed906f196af0e75d58861b1643",
+  "curl_exit_code": 0,
+  "transfer": {
+    "http_code": 200,
+    "url_effective": "https://www.archives.gov/founding-docs/constitution-transcript",
+    "ssl_verify_result": 0,
+    "num_redirects": 0,
+    "size_download": 70555
+  },
+  "tls_validation": "curl_schannel_reported_success",
+  "independent_third_party_authentication": false,
+  "historical_september_provenance_cured": false,
+  "source_admission": "not_granted",
+  "review_status": "pending"
+}

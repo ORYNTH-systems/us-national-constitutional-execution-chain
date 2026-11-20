@@ -1,0 +1,51 @@
+{
+  "record_id": "NCEC-NARA-NOVEMBER-REPRESENTATION-EQUIVALENCE-001",
+  "record_type": "independent_representation_equivalence_audit",
+  "created_at_utc": "2026-11-20T19:01:33.138094+00:00",
+  "repository_head_at_creation": "e7ad7ed2536bd55a4118b24d16743496ed55f164",
+  "source": "National Archives and Records Administration",
+  "canonical_url": "https://www.archives.gov/founding-docs/constitution-transcript",
+  "november_17": {
+    "artifact_path": "00-constitutional-source/records/acquisition-events/2026-11-17-nara-reacquisition-001/constitution.html",
+    "sha256": "1f1312439d49932c19745d08391be7a310b8ac00879515f50e25f75eacb63e13",
+    "bytes": 70555
+  },
+  "november_20": {
+    "artifact_paths": [
+      "00-constitutional-source/records/acquisition-events/2026-11-20-nara-authenticated-dual-002/ACQUISITION-001-body.html",
+      "00-constitutional-source/records/acquisition-events/2026-11-20-nara-authenticated-dual-002/ACQUISITION-002-body.html"
+    ],
+    "sha256": "a106eed5bdb87e79383a62ae9c1bb9a634455fed906f196af0e75d58861b1643",
+    "bytes_each": 70555,
+    "dual_acquisition_byte_equivalence": true,
+    "https_transport_review": "curl_schannel_reported_success",
+    "third_party_authentication": false
+  },
+  "normalization": {
+    "method": "in_memory_only",
+    "asset_token_november_17": "?toksw7",
+    "asset_token_november_20": "?tos5pl",
+    "asset_token_occurrences_each": 59,
+    "theme_token_occurrences_each": 1,
+    "normalized_bytes_each": 70464,
+    "normalized_sha256": "971c921f527a97f8b442bfea517227ed03d40fef9c5fe40ed7f6f7a6763ec512",
+    "residual_differences": 0
+  },
+  "findings": {
+    "raw_byte_equality": false,
+    "normalized_byte_equality": true,
+    "visible_text_equivalence": "verified_in_R9O_7",
+    "november_representation_equivalence": "verified_with_explicit_normalization",
+    "historical_september_provenance": "open_blocked",
+    "source_admission": "not_granted",
+    "authority_admissions": 0,
+    "obligation_discharges": 0,
+    "execution_permission": false
+  },
+  "limitations": [
+    "This record does not authenticate the September 2026 acquisition.",
+    "Normalization applies only to the two identified dynamic token classes.",
+    "Matching normalized representations do not establish legal interpretation.",
+    "No authority or execution permission is granted."
+  ]
+}
