@@ -1,0 +1,47 @@
+{
+  "exception_id": "NCEC-SRC-EXCEPTION-NARA-CONSTITUTION-001",
+  "record_type": "source_provenance_integrity_exception",
+  "source_record_id": "NCEC-CS-UNITED-STATES-CONSTITUTION-001",
+  "source_artifact_path": "00-constitutional-source/records/official-source-snapshots/nara-constitution-transcript.html",
+  "historical_claimed_sha256": "827d192ab2a55600210ebbedc24feac29fc396ecb2879eec1825d992a5f4d04a",
+  "observed_preserved_sha256": "ce0024b73950c9b7e2eed68b66b3da5cba1d3b07e8ab1f6702ff5cd27dda5b6e",
+  "observed_git_blob": "cb91d6c2bf7d1fecd6aea26cf3ae9a9351e41945",
+  "historical_commits": [
+    "79ed05e9234178398765109e56b4973b139b503b",
+    "7290fcdac2a51d791534b99deafddda1a21e853d"
+  ],
+  "retrieval_event_ids": [
+    "NCEC-SRC-RETRIEVAL-NARA-CONSTITUTION-001",
+    "NCEC-SRC-RETRIEVAL-NARA-CONSTITUTION-002"
+  ],
+  "findings": [
+    "The historical recorded SHA-256 does not match the preserved Git artifact.",
+    "Both historical retrieval events reference the same preserved Git blob.",
+    "The second historical commit changed retrieval timestamps without committing a distinct HTML artifact.",
+    "The September and November representations are byte-identical after normalization of identified webpage metadata.",
+    "The origin of the historical recorded digest remains unresolved.",
+    "Ten tracked downstream documents contain twenty-six references to the disputed digest."
+  ],
+  "comparison_scope": {
+    "result": "METADATA_NORMALIZED_EQUIVALENT",
+    "raw_byte_identity": false,
+    "source_authenticity_established": false
+  },
+  "conformance": {
+    "SP-001": "BLOCKED",
+    "SP-004": "NOT_ESTABLISHED"
+  },
+  "exception_status": "OPEN_BLOCKED",
+  "review_status": "PENDING_INDEPENDENT_REVIEW",
+  "source_admission": "NOT_GRANTED",
+  "authority_admissions": 0,
+  "obligation_discharges": 0,
+  "execution_permission": false,
+  "historical_evidence_policy": "PRESERVE_UNMODIFIED",
+  "resolution_requirements": [
+    "Investigate the original recorded digest without rewriting historical evidence.",
+    "Reconcile downstream source references through separately attributable records.",
+    "Preserve historical attestations, retrieval events, and release manifests.",
+    "Require independent review before source-integrity status promotion."
+  ]
+}
