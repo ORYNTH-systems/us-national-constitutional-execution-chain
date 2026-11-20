@@ -1,0 +1,325 @@
+{
+  "branch_basis": "feature/declaration-foundation-batch-011",
+  "certification": {
+    "effect_permission": false,
+    "legal_authority_admitted": false,
+    "master_sections_certified": 0,
+    "master_sections_total": 12,
+    "relationships_adjudicated": 0,
+    "schema_adopted": false,
+    "source_provenance_reconciled": false
+  },
+  "document_type": "NATIONAL_AUTHORITY_INTEGRATION",
+  "head_basis": "7ff51210550e72781c6053eaeed0ce6bbd7e413f",
+  "identity_boundaries": {
+    "appointment_not_occupancy": true,
+    "contract_not_governmental_authority": true,
+    "delegation_not_function": true,
+    "evidence_not_self_certifying": true,
+    "office_not_person": true
+  },
+  "relationship_candidates": [
+    {
+      "candidate_link_field": "office_role_ref",
+      "legal_authority_verified": false,
+      "source_type": "OFFICE",
+      "target_type": "OFFICE_STATUS",
+      "typed_target_verified": false
+    },
+    {
+      "candidate_link_field": "office_role_ref",
+      "legal_authority_verified": false,
+      "source_type": "OFFICE",
+      "target_type": "APPOINTMENT",
+      "typed_target_verified": false
+    },
+    {
+      "candidate_link_field": "delegation_ref",
+      "legal_authority_verified": false,
+      "source_type": "DELEGATION",
+      "target_type": "REVOCATION",
+      "typed_target_verified": false
+    },
+    {
+      "candidate_link_field": "actor_ref",
+      "legal_authority_verified": false,
+      "source_type": "OFFICE",
+      "target_type": "JURISDICTION",
+      "typed_target_verified": false
+    },
+    {
+      "candidate_link_field": "public_principal_ref",
+      "legal_authority_verified": false,
+      "source_type": "EXTERNAL_EXECUTION",
+      "target_type": "AUTHORITY_CHAIN",
+      "typed_target_verified": false
+    },
+    {
+      "candidate_link_field": "authority_chain_record_id",
+      "legal_authority_verified": false,
+      "source_type": "AUTOMATED_PARTICIPATION",
+      "target_type": "AUTHORITY_CHAIN",
+      "typed_target_verified": false
+    },
+    {
+      "candidate_link_field": "jurisdiction_record_id",
+      "legal_authority_verified": false,
+      "source_type": "AUTOMATED_PARTICIPATION",
+      "target_type": "JURISDICTION",
+      "typed_target_verified": false
+    },
+    {
+      "candidate_link_field": "consequence_gate_ref",
+      "legal_authority_verified": false,
+      "source_type": "CONSEQUENCE_GATE",
+      "target_type": "EFFECT_RECEIPT",
+      "typed_target_verified": false
+    },
+    {
+      "candidate_link_field": "office_record_id",
+      "legal_authority_verified": false,
+      "source_type": "OFFICE",
+      "target_type": "FULL_CHAIN",
+      "typed_target_verified": false
+    },
+    {
+      "candidate_link_field": "jurisdiction_record_id",
+      "legal_authority_verified": false,
+      "source_type": "JURISDICTION",
+      "target_type": "FULL_CHAIN",
+      "typed_target_verified": false
+    },
+    {
+      "candidate_link_field": "consequence_gate_record_id",
+      "legal_authority_verified": false,
+      "source_type": "CONSEQUENCE_GATE",
+      "target_type": "FULL_CHAIN",
+      "typed_target_verified": false
+    },
+    {
+      "candidate_link_field": "evidence_record_ids",
+      "legal_authority_verified": false,
+      "source_type": "EVIDENCE",
+      "target_type": "FULL_CHAIN",
+      "typed_target_verified": false
+    }
+  ],
+  "relationship_mapping_status": "FIELD_OWNERSHIP_VERIFIED_TARGET_TYPES_PROPOSED",
+  "relationship_mapping_version": "0.2.0-proposed",
+  "relationship_mappings_v2": [
+    {
+      "candidate_target_contract": "OFFICE",
+      "field_ownership_verified": true,
+      "legal_authority_verified": false,
+      "record_instance_verified": false,
+      "reference_field": "office_role_ref",
+      "referencing_contract": "OFFICE_STATUS",
+      "target_type_status": "PROPOSED_TARGET_NOT_ADJUDICATED"
+    },
+    {
+      "candidate_target_contract": "OFFICE",
+      "field_ownership_verified": true,
+      "legal_authority_verified": false,
+      "record_instance_verified": false,
+      "reference_field": "office_role_ref",
+      "referencing_contract": "APPOINTMENT",
+      "target_type_status": "PROPOSED_TARGET_NOT_ADJUDICATED"
+    },
+    {
+      "candidate_target_contract": "DELEGATION",
+      "field_ownership_verified": true,
+      "legal_authority_verified": false,
+      "record_instance_verified": false,
+      "reference_field": "delegation_ref",
+      "referencing_contract": "REVOCATION",
+      "target_type_status": "PROPOSED_TARGET_NOT_ADJUDICATED"
+    },
+    {
+      "candidate_target_contract": "OFFICE",
+      "field_ownership_verified": true,
+      "legal_authority_verified": false,
+      "record_instance_verified": false,
+      "reference_field": "actor_ref",
+      "referencing_contract": "JURISDICTION",
+      "target_type_status": "UNRESOLVED_SEMANTIC_TARGET"
+    },
+    {
+      "candidate_target_contract": "AUTHORITY_CHAIN",
+      "field_ownership_verified": true,
+      "legal_authority_verified": false,
+      "record_instance_verified": false,
+      "reference_field": "public_principal_ref",
+      "referencing_contract": "EXTERNAL_EXECUTION",
+      "target_type_status": "UNRESOLVED_SEMANTIC_TARGET"
+    },
+    {
+      "candidate_target_contract": "AUTHORITY_CHAIN",
+      "field_ownership_verified": true,
+      "legal_authority_verified": false,
+      "record_instance_verified": false,
+      "reference_field": "authority_chain_record_id",
+      "referencing_contract": "AUTOMATED_PARTICIPATION",
+      "target_type_status": "PROPOSED_TARGET_NOT_ADJUDICATED"
+    },
+    {
+      "candidate_target_contract": "JURISDICTION",
+      "field_ownership_verified": true,
+      "legal_authority_verified": false,
+      "record_instance_verified": false,
+      "reference_field": "jurisdiction_record_id",
+      "referencing_contract": "AUTOMATED_PARTICIPATION",
+      "target_type_status": "PROPOSED_TARGET_NOT_ADJUDICATED"
+    },
+    {
+      "candidate_target_contract": "CONSEQUENCE_GATE",
+      "field_ownership_verified": true,
+      "legal_authority_verified": false,
+      "record_instance_verified": false,
+      "reference_field": "consequence_gate_ref",
+      "referencing_contract": "EFFECT_RECEIPT",
+      "target_type_status": "PROPOSED_TARGET_NOT_ADJUDICATED"
+    },
+    {
+      "candidate_target_contract": "OFFICE",
+      "field_ownership_verified": true,
+      "legal_authority_verified": false,
+      "record_instance_verified": false,
+      "reference_field": "office_record_id",
+      "referencing_contract": "FULL_CHAIN",
+      "target_type_status": "PROPOSED_TARGET_NOT_ADJUDICATED"
+    },
+    {
+      "candidate_target_contract": "JURISDICTION",
+      "field_ownership_verified": true,
+      "legal_authority_verified": false,
+      "record_instance_verified": false,
+      "reference_field": "jurisdiction_record_id",
+      "referencing_contract": "FULL_CHAIN",
+      "target_type_status": "PROPOSED_TARGET_NOT_ADJUDICATED"
+    },
+    {
+      "candidate_target_contract": "CONSEQUENCE_GATE",
+      "field_ownership_verified": true,
+      "legal_authority_verified": false,
+      "record_instance_verified": false,
+      "reference_field": "consequence_gate_record_id",
+      "referencing_contract": "FULL_CHAIN",
+      "target_type_status": "PROPOSED_TARGET_NOT_ADJUDICATED"
+    },
+    {
+      "candidate_target_contract": "EVIDENCE",
+      "field_ownership_verified": true,
+      "legal_authority_verified": false,
+      "record_instance_verified": false,
+      "reference_field": "evidence_record_ids",
+      "referencing_contract": "FULL_CHAIN",
+      "target_type_status": "PROPOSED_TARGET_NOT_ADJUDICATED"
+    }
+  ],
+  "source_contracts": {
+    "APPOINTMENT": {
+      "path": "06-appointments-and-confirmations/contracts/APPOINTMENT_EVENT_RECORD.schema.json",
+      "sha256_at_head": "cc78d40f95bb756945ead223bf7ecd278232b7f16ffe9c43e32d60c03facb394"
+    },
+    "AUTHORITY_CHAIN": {
+      "path": "19-schemas-and-vocabularies/AUTHORITY_CHAIN_RECORD.schema.json",
+      "sha256_at_head": "28f9c119a535940a746ecf2e39a3b7fd9bb2e8e367750925bdfc3525638cad1c"
+    },
+    "AUTOMATED_PARTICIPATION": {
+      "path": "16-automated-and-hybrid-systems/contracts/AUTOMATED_SYSTEM_PARTICIPATION_RECORD.schema.json",
+      "sha256_at_head": "97d0f710852fba1b83e721bab07efa6bbf4362c2aaa1b1cc347f259ce3f3a4cb"
+    },
+    "CONSEQUENCE_GATE": {
+      "path": "10-admissibility-and-consequence-gates/contracts/CONSEQUENCE_GATE_RECORD.schema.json",
+      "sha256_at_head": "c044c17f67af28d0772f909d09193eabe93932d6f32d4d5a9aa2c83a0fd2454c"
+    },
+    "DELEGATION": {
+      "path": "04-delegation-and-revocation/contracts/DELEGATION_RECORD.schema.json",
+      "sha256_at_head": "98dd369699127d75e0b33999e342eced66d513f47a2d7fc04c61e09c7b12a082"
+    },
+    "EFFECT_RECEIPT": {
+      "path": "11-execution-receipts-and-provenance/contracts/EFFECT_RECEIPT_RECORD.schema.json",
+      "sha256_at_head": "59c0bd573e448f5eec0aa5d9bd25717d29cbd2fd50ad6a0cb546629bdf8094ac"
+    },
+    "EVIDENCE": {
+      "path": "09-evidence-and-record-integrity/contracts/EVIDENCE_RECORD.schema.json",
+      "sha256_at_head": "4b18229a16e38b3fbbda0e363743ad744f4a8bb17f9ba22a34097c73a34de336"
+    },
+    "EXTERNAL_EXECUTION": {
+      "path": "15-public-procurement-and-external-execution/contracts/EXTERNAL_EXECUTION_RECORD.schema.json",
+      "sha256_at_head": "6dbf580aff796dfd69aa538df2fbd05a8c64e6f06796d2d2902af3331c115d87"
+    },
+    "FULL_CHAIN": {
+      "path": "20-conformance-and-proof/contracts/FULL_CHAIN_INTEGRATION_RECORD.schema.json",
+      "sha256_at_head": "7a303e2f44268d25ab303a8a7a3c53b3503818632e25e058cf3e627ff7ad3dc6"
+    },
+    "JURISDICTION": {
+      "path": "05-jurisdiction-and-federalism/contracts/JURISDICTION_RECORD.schema.json",
+      "sha256_at_head": "99e64e7eed06d1bf98d431a730c8c0d5f6aeb8693192306b99cd11df502fb0b7"
+    },
+    "OFFICE": {
+      "path": "01-office-and-role-registry/contracts/OFFICE_ROLE_RECORD.schema.json",
+      "sha256_at_head": "be56065b104efcba383298de9a1fc8c28674a53f6070dfbf5799ed469a5c126e"
+    },
+    "OFFICE_STATUS": {
+      "path": "01-office-and-role-registry/contracts/OFFICE_STATUS_RECORD.schema.json",
+      "sha256_at_head": "793e4509596651bc202bb7097061a6b98b4e47b890ae538d35acdce52e519e28"
+    },
+    "REVOCATION": {
+      "path": "04-delegation-and-revocation/contracts/REVOCATION_EVENT_RECORD.schema.json",
+      "sha256_at_head": "2b3062f1f9bc69a4245feb37f778f7df356d89cdd61bb8f4fc715ab4d59fba90"
+    }
+  },
+  "status": "PROPOSED_NOT_LEGALLY_ADJUDICATED",
+  "temporal_rules": [
+    {
+      "rule": "OFFICE_EXISTS_INDEPENDENTLY_OF_OCCUPANT",
+      "status": "PROPOSED"
+    },
+    {
+      "rule": "OCCUPANCY_REQUIRES_INSTALLATION_BASIS",
+      "status": "PROPOSED"
+    },
+    {
+      "rule": "ACTING_STATUS_REQUIRES_SEPARATE_BASIS",
+      "status": "PROPOSED"
+    },
+    {
+      "rule": "DELEGATION_REQUIRES_SCOPE_AND_TIME",
+      "status": "PROPOSED"
+    },
+    {
+      "rule": "REVOCATION_MUST_AFFECT_FUTURE_ADMISSIBILITY",
+      "status": "PROPOSED"
+    },
+    {
+      "rule": "CONTRACT_DOES_NOT_TRANSFER_SOVEREIGN_AUTHORITY",
+      "status": "PROPOSED"
+    },
+    {
+      "rule": "HISTORICAL_VALIDITY_NOT_CURRENT_PERMISSION",
+      "status": "PROPOSED"
+    },
+    {
+      "rule": "EFFECT_TIME_REQUIRES_FRESH_ADMISSIBILITY",
+      "status": "PROPOSED"
+    },
+    {
+      "rule": "UNKNOWN_TIME_BOUNDARY_MUST_NOT_BE_INFERRED",
+      "status": "PROPOSED"
+    },
+    {
+      "rule": "EVIDENCE_RECORD_DOES_NOT_SELF_CERTIFY",
+      "status": "PROPOSED"
+    }
+  ],
+  "temporal_semantics": {
+    "end_null": "UNKNOWN_NOT_INFINITE",
+    "historical_authorization": "NOT_SUFFICIENT_FOR_CURRENT_EFFECT",
+    "interval": "[start,end)",
+    "open_end_requires_evidence": true,
+    "revocation_effect": "DENY_AT_OR_AFTER_EFFECTIVE_REVOCATION",
+    "unknown_time": "BLOCK"
+  },
+  "version": "0.2.0-proposed"
+}

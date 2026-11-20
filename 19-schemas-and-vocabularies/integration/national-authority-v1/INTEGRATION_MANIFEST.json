@@ -1,0 +1,82 @@
+{
+  "branch_basis": "feature/declaration-foundation-batch-011",
+  "commit_created": false,
+  "execution_permission": false,
+  "existing_contracts": {
+    "APPOINTMENT": {
+      "path": "06-appointments-and-confirmations/contracts/APPOINTMENT_EVENT_RECORD.schema.json",
+      "sha256_at_head": "cc78d40f95bb756945ead223bf7ecd278232b7f16ffe9c43e32d60c03facb394"
+    },
+    "AUTHORITY_CHAIN": {
+      "path": "19-schemas-and-vocabularies/AUTHORITY_CHAIN_RECORD.schema.json",
+      "sha256_at_head": "28f9c119a535940a746ecf2e39a3b7fd9bb2e8e367750925bdfc3525638cad1c"
+    },
+    "AUTOMATED_PARTICIPATION": {
+      "path": "16-automated-and-hybrid-systems/contracts/AUTOMATED_SYSTEM_PARTICIPATION_RECORD.schema.json",
+      "sha256_at_head": "97d0f710852fba1b83e721bab07efa6bbf4362c2aaa1b1cc347f259ce3f3a4cb"
+    },
+    "CONSEQUENCE_GATE": {
+      "path": "10-admissibility-and-consequence-gates/contracts/CONSEQUENCE_GATE_RECORD.schema.json",
+      "sha256_at_head": "c044c17f67af28d0772f909d09193eabe93932d6f32d4d5a9aa2c83a0fd2454c"
+    },
+    "DELEGATION": {
+      "path": "04-delegation-and-revocation/contracts/DELEGATION_RECORD.schema.json",
+      "sha256_at_head": "98dd369699127d75e0b33999e342eced66d513f47a2d7fc04c61e09c7b12a082"
+    },
+    "EFFECT_RECEIPT": {
+      "path": "11-execution-receipts-and-provenance/contracts/EFFECT_RECEIPT_RECORD.schema.json",
+      "sha256_at_head": "59c0bd573e448f5eec0aa5d9bd25717d29cbd2fd50ad6a0cb546629bdf8094ac"
+    },
+    "EVIDENCE": {
+      "path": "09-evidence-and-record-integrity/contracts/EVIDENCE_RECORD.schema.json",
+      "sha256_at_head": "4b18229a16e38b3fbbda0e363743ad744f4a8bb17f9ba22a34097c73a34de336"
+    },
+    "EXTERNAL_EXECUTION": {
+      "path": "15-public-procurement-and-external-execution/contracts/EXTERNAL_EXECUTION_RECORD.schema.json",
+      "sha256_at_head": "6dbf580aff796dfd69aa538df2fbd05a8c64e6f06796d2d2902af3331c115d87"
+    },
+    "FULL_CHAIN": {
+      "path": "20-conformance-and-proof/contracts/FULL_CHAIN_INTEGRATION_RECORD.schema.json",
+      "sha256_at_head": "7a303e2f44268d25ab303a8a7a3c53b3503818632e25e058cf3e627ff7ad3dc6"
+    },
+    "JURISDICTION": {
+      "path": "05-jurisdiction-and-federalism/contracts/JURISDICTION_RECORD.schema.json",
+      "sha256_at_head": "99e64e7eed06d1bf98d431a730c8c0d5f6aeb8693192306b99cd11df502fb0b7"
+    },
+    "OFFICE": {
+      "path": "01-office-and-role-registry/contracts/OFFICE_ROLE_RECORD.schema.json",
+      "sha256_at_head": "be56065b104efcba383298de9a1fc8c28674a53f6070dfbf5799ed469a5c126e"
+    },
+    "OFFICE_STATUS": {
+      "path": "01-office-and-role-registry/contracts/OFFICE_STATUS_RECORD.schema.json",
+      "sha256_at_head": "793e4509596651bc202bb7097061a6b98b4e47b890ae538d35acdce52e519e28"
+    },
+    "REVOCATION": {
+      "path": "04-delegation-and-revocation/contracts/REVOCATION_EVENT_RECORD.schema.json",
+      "sha256_at_head": "2b3062f1f9bc69a4245feb37f778f7df356d89cdd61bb8f4fc715ab4d59fba90"
+    }
+  },
+  "files": {
+    "19-schemas-and-vocabularies/integration/national-authority-v1/NATIONAL_AUTHORITY_INTEGRATION.json": "448b87c7c1b5697c20af1334e5da28833ad3f1add40518b072660467f5e46fec",
+    "19-schemas-and-vocabularies/integration/national-authority-v1/test_national_authority_integration.py": "f373af5c6b3da95e7f8c435fa332438589b0a605fb333895e1bb3de0d64e9c9f",
+    "19-schemas-and-vocabularies/integration/national-authority-v1/test_typed_relationships.py": "3dd747ebf5458d566483ad1df98c1c84fd06d9913567cf11a2346c8348f46938"
+  },
+  "head_basis": "7ff51210550e72781c6053eaeed0ce6bbd7e413f",
+  "legal_certification": false,
+  "prior_package_sha256": {
+    "INTEGRATION_MANIFEST.json": "0c950883943fc8ad116de95f0c47364d6e6c01c54c78857a65588406119a55e0",
+    "NATIONAL_AUTHORITY_INTEGRATION.json": "b135e65707e48b13e9f56ca063f5916d06d7f1df5c0fa51137f94bb1267a85e5",
+    "test_national_authority_integration.py": "f373af5c6b3da95e7f8c435fa332438589b0a605fb333895e1bb3de0d64e9c9f"
+  },
+  "push_performed": false,
+  "source_integrity_discrepancies": "UNRESOLVED",
+  "status": "PROPOSED_TYPED_REFERENCE_REVIEW_PENDING",
+  "step": "191A-96-N-54R",
+  "synthetic_tests": {
+    "additional": 7,
+    "all_passed": false,
+    "original": 17,
+    "verification_pending": true
+  },
+  "typed_target_adjudicated": false
+}
