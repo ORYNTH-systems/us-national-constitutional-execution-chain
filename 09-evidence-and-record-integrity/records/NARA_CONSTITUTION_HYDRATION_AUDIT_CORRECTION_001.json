@@ -1,0 +1,70 @@
+{
+  "record_id": "NCEC-SRC-HYDRATION-AUDIT-CORRECTION-001",
+  "record_type": "add_only_historical_provenance_audit_correction",
+  "basis_commit": "dabccea24c2e699ecdd4512318535518ba621100",
+  "historical_audit_path": "00-constitutional-source/records/CONSTITUTION_HYDRATION_PROVENANCE_AUDIT.md",
+  "historical_audit_sha256": "20872a8eaad43511f73ad991dc3c34f2d34f861f53632cffc42ec4477d6b49f2",
+  "historical_audit_introduction_commit": "ef7a34e111f7972c8c7587787e7d239643a6e233",
+  "historical_audit_content_unchanged_since_introduction": true,
+  "defect_type": "UNEXPANDED_POWERSHELL_INTERPOLATION",
+  "unresolved_expression_counts": {
+    "$priorCommit": 1,
+    "$priorBlob": 1,
+    "$currentCommit": 1,
+    "$currentBlob": 1,
+    "$currentHash": 1,
+    "$(": 1
+  },
+  "retrieval_event_record_path": "00-constitutional-source/records/retrieval-events/NARA_CONSTITUTION_RETRIEVAL_EVENTS.json",
+  "retrieval_event_record_sha256": "df1483cab52327b69ae3b470284ab76c822d317e681cafb19b9d6d4e10c35d97",
+  "verified_repository_events": [
+    {
+      "event_id": "NCEC-SRC-RETRIEVAL-NARA-CONSTITUTION-001",
+      "recorded_repository_commit": "79ed05e9234178398765109e56b4973b139b503b",
+      "recorded_repository_commit_time": "2026-09-22T00:35:49-05:00",
+      "recorded_artifact_path": "00-constitutional-source/records/official-source-snapshots/nara-constitution-transcript.html",
+      "verified_git_blob": "cb91d6c2bf7d1fecd6aea26cf3ae9a9351e41945",
+      "recorded_claimed_sha256": "827d192ab2a55600210ebbedc24feac29fc396ecb2879eec1825d992a5f4d04a",
+      "independently_computed_sha256": "ce0024b73950c9b7e2eed68b66b3da5cba1d3b07e8ab1f6702ff5cd27dda5b6e",
+      "artifact_bytes": 70546,
+      "independent_distinct_retrieval_artifact": "NOT_ESTABLISHED"
+    },
+    {
+      "event_id": "NCEC-SRC-RETRIEVAL-NARA-CONSTITUTION-002",
+      "recorded_repository_commit": "7290fcdac2a51d791534b99deafddda1a21e853d",
+      "recorded_repository_commit_time": "2026-09-22T00:37:11-05:00",
+      "recorded_artifact_path": "00-constitutional-source/records/official-source-snapshots/nara-constitution-transcript.html",
+      "verified_git_blob": "cb91d6c2bf7d1fecd6aea26cf3ae9a9351e41945",
+      "recorded_claimed_sha256": "827d192ab2a55600210ebbedc24feac29fc396ecb2879eec1825d992a5f4d04a",
+      "independently_computed_sha256": "ce0024b73950c9b7e2eed68b66b3da5cba1d3b07e8ab1f6702ff5cd27dda5b6e",
+      "artifact_bytes": 70546,
+      "independent_distinct_retrieval_artifact": "NOT_ESTABLISHED"
+    }
+  ],
+  "distinct_recorded_events": 2,
+  "distinct_verified_git_blobs": 1,
+  "claimed_artifact_sha256": "827d192ab2a55600210ebbedc24feac29fc396ecb2879eec1825d992a5f4d04a",
+  "observed_artifact_sha256": "ce0024b73950c9b7e2eed68b66b3da5cba1d3b07e8ab1f6702ff5cd27dda5b6e",
+  "verified_conclusions": [
+    "The historical audit was committed with unresolved PowerShell expressions.",
+    "The two recorded retrieval events identify distinct repository commits.",
+    "Both commits reference the same preserved source-artifact Git blob.",
+    "The historical claimed artifact digest does not match the independently computed digest."
+  ],
+  "unverified_conclusions": [
+    "A separately preserved source artifact exists for the second retrieval.",
+    "The historical claimed SHA-256 was computed from the preserved artifact.",
+    "The original audit table contains valid expanded commit and blob values."
+  ],
+  "exception_record_path": "09-evidence-and-record-integrity/records/NARA_CONSTITUTION_PROVENANCE_EXCEPTION_001.json",
+  "exception_record_sha256": "bfc838a8be36f6dfe6815ccfb17972aceacfcdb7b90aa6241be537600f5d9eab",
+  "downstream_reconciliation_path": "09-evidence-and-record-integrity/records/NARA_CONSTITUTION_DOWNSTREAM_RECONCILIATION_001.json",
+  "downstream_reconciliation_sha256": "07adf0fb3c0e0c20d7c32c636d3739b1f29c6eaf466e8ad950b1de5714acfaed",
+  "historical_audit_modified": false,
+  "source_integrity_status": "OPEN_BLOCKED",
+  "review_status": "PENDING_INDEPENDENT_REVIEW",
+  "source_admission": "NOT_GRANTED",
+  "authority_admissions": 0,
+  "obligation_discharges": 0,
+  "execution_permission": false
+}
