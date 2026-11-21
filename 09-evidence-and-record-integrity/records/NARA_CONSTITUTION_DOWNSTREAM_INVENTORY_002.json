@@ -1,0 +1,295 @@
+{
+  "record_id": "NCEC-NARA-DOWNSTREAM-INVENTORY-002",
+  "record_type": "additive_committed_dependency_inventory",
+  "status": "INVENTORIED_PENDING_INDEPENDENT_REVIEW",
+  "basis_commit": "6cb621fb1243b21543e675e2013fc1d233eb84c9",
+  "parent_exception_path": "09-evidence-and-record-integrity/records/NARA_CONSTITUTION_PROVENANCE_EXCEPTION_001.json",
+  "parent_exception_sha256": "bfc838a8be36f6dfe6815ccfb17972aceacfcdb7b90aa6241be537600f5d9eab",
+  "prior_reconciliation_path": "09-evidence-and-record-integrity/records/NARA_CONSTITUTION_DOWNSTREAM_RECONCILIATION_001.json",
+  "prior_reconciliation_sha256": "07adf0fb3c0e0c20d7c32c636d3739b1f29c6eaf466e8ad950b1de5714acfaed",
+  "line_ending_record_path": "09-evidence-and-record-integrity/records/NARA_CONSTITUTION_LINE_ENDING_RECONCILIATION_001.json",
+  "line_ending_record_sha256": "ac9ceefeb4aa76ff15d84a132b9eabd57026e13c00d4b10e3761cb3655c27d48",
+  "historical_claimed_sha256": "827d192ab2a55600210ebbedc24feac29fc396ecb2879eec1825d992a5f4d04a",
+  "observed_preserved_sha256": "ce0024b73950c9b7e2eed68b66b3da5cba1d3b07e8ab1f6702ff5cd27dda5b6e",
+  "historical_counts": {
+    "exception_reported_files": 10,
+    "exception_reported_occurrences": 26,
+    "prior_inventory_files": 10,
+    "prior_inventory_occurrences": 27
+  },
+  "current_counts": {
+    "tracked_files": 24,
+    "digest_occurrences": 45,
+    "additional_files_beyond_prior_inventory": 14,
+    "additional_occurrences_beyond_prior_inventory": 18
+  },
+  "count_discrepancy": {
+    "exception_vs_prior_inventory": 1,
+    "cause": "UNDETERMINED",
+    "not_evidence_of_new_mutation": true
+  },
+  "classification_counts": {
+    "BASELINE_REFERENCE": 2,
+    "CORRECTIVE_OR_STATUS_EVIDENCE": 4,
+    "DERIVED_PROOF_REFERENCE": 3,
+    "DERIVED_SOURCE_REFERENCE": 8,
+    "EXCEPTION_EVIDENCE": 2,
+    "HISTORICAL_SOURCE_CLAIM": 4,
+    "RELEASE_REFERENCE": 1
+  },
+  "dependencies": [
+    {
+      "path": "00-constitutional-source/records/ARTICLES_II_VII_SECTION_SOURCE_TEXT.html",
+      "classification": "DERIVED_SOURCE_REFERENCE",
+      "classification_basis": "PATH_HEURISTIC_NOT_ADJUDICATED",
+      "historical_digest_occurrences": 1,
+      "committed_sha256": "ca04fa81be9c23491e73273d2042db1836b7ea5c8f6c9575c4f6cad61b3edb89",
+      "source_integrity": "DISPUTED_DEPENDENCY",
+      "authority_admission": "NOT_GRANTED",
+      "required_treatment": "PRESERVE_AND_REVIEW"
+    },
+    {
+      "path": "00-constitutional-source/records/ARTICLE_I_PUNCTUATION_BOUNDARY_CANDIDATES.html",
+      "classification": "DERIVED_SOURCE_REFERENCE",
+      "classification_basis": "PATH_HEURISTIC_NOT_ADJUDICATED",
+      "historical_digest_occurrences": 1,
+      "committed_sha256": "54b97fd41bf0d3bcc1c9fdfe2301c41ccaae57437b2cda8c99ca5b4c6ba2ce3a",
+      "source_integrity": "DISPUTED_DEPENDENCY",
+      "authority_admission": "NOT_GRANTED",
+      "required_treatment": "PRESERVE_AND_REVIEW"
+    },
+    {
+      "path": "00-constitutional-source/records/ARTICLE_I_SECTION_SOURCE_TEXT.html",
+      "classification": "DERIVED_SOURCE_REFERENCE",
+      "classification_basis": "PATH_HEURISTIC_NOT_ADJUDICATED",
+      "historical_digest_occurrences": 1,
+      "committed_sha256": "b2bdaf72a1828c2d8c7f0fca9318be33b61b7886c31f4d138507e2da645cbb64",
+      "source_integrity": "DISPUTED_DEPENDENCY",
+      "authority_admission": "NOT_GRANTED",
+      "required_treatment": "PRESERVE_AND_REVIEW"
+    },
+    {
+      "path": "00-constitutional-source/records/ARTICLE_I_SECTION_STRUCTURAL_INDEX.json",
+      "classification": "DERIVED_SOURCE_REFERENCE",
+      "classification_basis": "PATH_HEURISTIC_NOT_ADJUDICATED",
+      "historical_digest_occurrences": 10,
+      "committed_sha256": "39dcfd0876cdf475711a4adabbde2753a166b44edb6d817c89e9859cabba4dd8",
+      "source_integrity": "DISPUTED_DEPENDENCY",
+      "authority_admission": "NOT_GRANTED",
+      "required_treatment": "PRESERVE_AND_REVIEW"
+    },
+    {
+      "path": "00-constitutional-source/records/ARTICLE_I_SECTION_STRUCTURAL_INDEX.md",
+      "classification": "DERIVED_SOURCE_REFERENCE",
+      "classification_basis": "PATH_HEURISTIC_NOT_ADJUDICATED",
+      "historical_digest_occurrences": 1,
+      "committed_sha256": "06b53d10846f86551df7e9857cc53d311ab6578d3298b1d0d34fe78abc7ca1c1",
+      "source_integrity": "DISPUTED_DEPENDENCY",
+      "authority_admission": "NOT_GRANTED",
+      "required_treatment": "PRESERVE_AND_REVIEW"
+    },
+    {
+      "path": "00-constitutional-source/records/CONSTITUTION_ARTICLE_UNIT_INDEX.json",
+      "classification": "DERIVED_SOURCE_REFERENCE",
+      "classification_basis": "PATH_HEURISTIC_NOT_ADJUDICATED",
+      "historical_digest_occurrences": 7,
+      "committed_sha256": "daec7c54d7abeed5fa90c9a236cf1dbbae3a3105cfa645696245e30c02081dfd",
+      "source_integrity": "DISPUTED_DEPENDENCY",
+      "authority_admission": "NOT_GRANTED",
+      "required_treatment": "PRESERVE_AND_REVIEW"
+    },
+    {
+      "path": "00-constitutional-source/records/CONSTITUTION_ARTICLE_UNIT_INDEX.md",
+      "classification": "DERIVED_SOURCE_REFERENCE",
+      "classification_basis": "PATH_HEURISTIC_NOT_ADJUDICATED",
+      "historical_digest_occurrences": 1,
+      "committed_sha256": "87c6376d726aa7eec290208a01d8171cd1d1783cc4ed7f60d2fedfe1c28e1d78",
+      "source_integrity": "DISPUTED_DEPENDENCY",
+      "authority_admission": "NOT_GRANTED",
+      "required_treatment": "PRESERVE_AND_REVIEW"
+    },
+    {
+      "path": "00-constitutional-source/records/CONSTITUTION_HYDRATION_PROVENANCE_AUDIT.md",
+      "classification": "HISTORICAL_SOURCE_CLAIM",
+      "classification_basis": "PATH_HEURISTIC_NOT_ADJUDICATED",
+      "historical_digest_occurrences": 2,
+      "committed_sha256": "20872a8eaad43511f73ad991dc3c34f2d34f861f53632cffc42ec4477d6b49f2",
+      "source_integrity": "DISPUTED_DEPENDENCY",
+      "authority_admission": "NOT_GRANTED",
+      "required_treatment": "PRESERVE_AND_REVIEW"
+    },
+    {
+      "path": "00-constitutional-source/records/NARA_CONSTITUTION_SOURCE_ATTESTATION.json",
+      "classification": "HISTORICAL_SOURCE_CLAIM",
+      "classification_basis": "PATH_HEURISTIC_NOT_ADJUDICATED",
+      "historical_digest_occurrences": 1,
+      "committed_sha256": "aeb0ba0b5591f74bf151e64215ddd2b9b294eb097ff441ccc173d83fb39793bb",
+      "source_integrity": "DISPUTED_DEPENDENCY",
+      "authority_admission": "NOT_GRANTED",
+      "required_treatment": "PRESERVE_AND_REVIEW"
+    },
+    {
+      "path": "00-constitutional-source/records/UNITED_STATES_CONSTITUTION_SOURCE_RECORD.json",
+      "classification": "HISTORICAL_SOURCE_CLAIM",
+      "classification_basis": "PATH_HEURISTIC_NOT_ADJUDICATED",
+      "historical_digest_occurrences": 1,
+      "committed_sha256": "a28fe4aacd0f69a1bad65c9be76c0493f049a49b29d243c6780dcf85c746c915",
+      "source_integrity": "DISPUTED_DEPENDENCY",
+      "authority_admission": "NOT_GRANTED",
+      "required_treatment": "PRESERVE_AND_REVIEW"
+    },
+    {
+      "path": "00-constitutional-source/records/retrieval-events/NARA_CONSTITUTION_RETRIEVAL_EVENTS.json",
+      "classification": "HISTORICAL_SOURCE_CLAIM",
+      "classification_basis": "PATH_HEURISTIC_NOT_ADJUDICATED",
+      "historical_digest_occurrences": 2,
+      "committed_sha256": "df1483cab52327b69ae3b470284ab76c822d317e681cafb19b9d6d4e10c35d97",
+      "source_integrity": "DISPUTED_DEPENDENCY",
+      "authority_admission": "NOT_GRANTED",
+      "required_treatment": "PRESERVE_AND_REVIEW"
+    },
+    {
+      "path": "01-office-and-role-registry/records/CONGRESSIONAL_REFERENCE_SLICE_BASELINE_INVENTORY.html",
+      "classification": "BASELINE_REFERENCE",
+      "classification_basis": "PATH_HEURISTIC_NOT_ADJUDICATED",
+      "historical_digest_occurrences": 1,
+      "committed_sha256": "ffe21542a8ba882b782b304953e3b423d8a7effda4d5c7eecbd106cf8251f5d8",
+      "source_integrity": "DISPUTED_DEPENDENCY",
+      "authority_admission": "NOT_GRANTED",
+      "required_treatment": "PRESERVE_AND_REVIEW"
+    },
+    {
+      "path": "09-evidence-and-record-integrity/records/NARA_CONSTITUTION_DOWNSTREAM_RECONCILIATION_001.json",
+      "classification": "CORRECTIVE_OR_STATUS_EVIDENCE",
+      "classification_basis": "PATH_HEURISTIC_NOT_ADJUDICATED",
+      "historical_digest_occurrences": 1,
+      "committed_sha256": "07adf0fb3c0e0c20d7c32c636d3739b1f29c6eaf466e8ad950b1de5714acfaed",
+      "source_integrity": "DISPUTED_DEPENDENCY",
+      "authority_admission": "NOT_GRANTED",
+      "required_treatment": "PRESERVE_AND_REVIEW"
+    },
+    {
+      "path": "09-evidence-and-record-integrity/records/NARA_CONSTITUTION_HYDRATION_AUDIT_CORRECTION_001.json",
+      "classification": "CORRECTIVE_OR_STATUS_EVIDENCE",
+      "classification_basis": "PATH_HEURISTIC_NOT_ADJUDICATED",
+      "historical_digest_occurrences": 3,
+      "committed_sha256": "1b6e3604ea44fb918965939aa344bbf391a0910c9c7736cd082a04412e27ccec",
+      "source_integrity": "DISPUTED_DEPENDENCY",
+      "authority_admission": "NOT_GRANTED",
+      "required_treatment": "PRESERVE_AND_REVIEW"
+    },
+    {
+      "path": "09-evidence-and-record-integrity/records/NARA_CONSTITUTION_PROVENANCE_EXCEPTION_001.json",
+      "classification": "EXCEPTION_EVIDENCE",
+      "classification_basis": "PATH_HEURISTIC_NOT_ADJUDICATED",
+      "historical_digest_occurrences": 1,
+      "committed_sha256": "bfc838a8be36f6dfe6815ccfb17972aceacfcdb7b90aa6241be537600f5d9eab",
+      "source_integrity": "DISPUTED_DEPENDENCY",
+      "authority_admission": "NOT_GRANTED",
+      "required_treatment": "PRESERVE_AND_REVIEW"
+    },
+    {
+      "path": "09-evidence-and-record-integrity/records/NARA_CONSTITUTION_REPRESENTATION_EQUIVALENCE_001.json",
+      "classification": "CORRECTIVE_OR_STATUS_EVIDENCE",
+      "classification_basis": "PATH_HEURISTIC_NOT_ADJUDICATED",
+      "historical_digest_occurrences": 1,
+      "committed_sha256": "c99b79a0b98680d85e1a2e860a48372632029fc6acdec8dfbaddeca17ff67149",
+      "source_integrity": "DISPUTED_DEPENDENCY",
+      "authority_admission": "NOT_GRANTED",
+      "required_treatment": "PRESERVE_AND_REVIEW"
+    },
+    {
+      "path": "20-conformance-and-proof/records/ARTICLES_II_VII_SOURCE_PIPELINE_MANIFEST.html",
+      "classification": "DERIVED_PROOF_REFERENCE",
+      "classification_basis": "PATH_HEURISTIC_NOT_ADJUDICATED",
+      "historical_digest_occurrences": 2,
+      "committed_sha256": "92e6211216542afae867e9a3bc89e4b7c13142c604eeea32154985514e810232",
+      "source_integrity": "DISPUTED_DEPENDENCY",
+      "authority_admission": "NOT_GRANTED",
+      "required_treatment": "PRESERVE_AND_REVIEW"
+    },
+    {
+      "path": "20-conformance-and-proof/records/ARTICLE_I_UTF8_REHYDRATION_AUDIT.html",
+      "classification": "DERIVED_PROOF_REFERENCE",
+      "classification_basis": "PATH_HEURISTIC_NOT_ADJUDICATED",
+      "historical_digest_occurrences": 1,
+      "committed_sha256": "df0a28054b95b5077e10f0548356da53d8e7e57f8d1a2bfe536faf89a071fd34",
+      "source_integrity": "DISPUTED_DEPENDENCY",
+      "authority_admission": "NOT_GRANTED",
+      "required_treatment": "PRESERVE_AND_REVIEW"
+    },
+    {
+      "path": "20-conformance-and-proof/records/UNIFIED_CONSTITUTIONAL_SOURCE_REGISTRY_MANIFEST.html",
+      "classification": "DERIVED_PROOF_REFERENCE",
+      "classification_basis": "PATH_HEURISTIC_NOT_ADJUDICATED",
+      "historical_digest_occurrences": 2,
+      "committed_sha256": "31eb8b999bed87445727db1b5d378ab79b8aab8feffcc59f9752e02e328e3ded",
+      "source_integrity": "DISPUTED_DEPENDENCY",
+      "authority_admission": "NOT_GRANTED",
+      "required_treatment": "PRESERVE_AND_REVIEW"
+    },
+    {
+      "path": "21-registers-and-status/CONSTITUTION_ARTICLES_INDEX_STATUS.md",
+      "classification": "DERIVED_SOURCE_REFERENCE",
+      "classification_basis": "PATH_HEURISTIC_NOT_ADJUDICATED",
+      "historical_digest_occurrences": 1,
+      "committed_sha256": "861c8d1734a08065f450272b016bf0551f7d2e906b2e6747d80c120d7b77892d",
+      "source_integrity": "DISPUTED_DEPENDENCY",
+      "authority_admission": "NOT_GRANTED",
+      "required_treatment": "PRESERVE_AND_REVIEW"
+    },
+    {
+      "path": "21-registers-and-status/CONSTITUTION_SOURCE_INTEGRITY_STATUS_ASSESSMENT_001.json",
+      "classification": "CORRECTIVE_OR_STATUS_EVIDENCE",
+      "classification_basis": "PATH_HEURISTIC_NOT_ADJUDICATED",
+      "historical_digest_occurrences": 1,
+      "committed_sha256": "7e0628fa2672bae11ef4fff5f8a61ef4d229e4d2314917124730bf0a56c13253",
+      "source_integrity": "DISPUTED_DEPENDENCY",
+      "authority_admission": "NOT_GRANTED",
+      "required_treatment": "PRESERVE_AND_REVIEW"
+    },
+    {
+      "path": "21-registers-and-status/records/NATIONAL_INTEGRATED_REFERENCE_BASELINE_INVENTORY.html",
+      "classification": "BASELINE_REFERENCE",
+      "classification_basis": "PATH_HEURISTIC_NOT_ADJUDICATED",
+      "historical_digest_occurrences": 1,
+      "committed_sha256": "e5a1fa27ac8b33951f4c798dae6b261b64868b4998d62e5916cb3a9997011c5f",
+      "source_integrity": "DISPUTED_DEPENDENCY",
+      "authority_admission": "NOT_GRANTED",
+      "required_treatment": "PRESERVE_AND_REVIEW"
+    },
+    {
+      "path": "22-freeze-and-releases/PUBLIC_REFERENCE_RELEASE_MANIFEST.md",
+      "classification": "RELEASE_REFERENCE",
+      "classification_basis": "PATH_HEURISTIC_NOT_ADJUDICATED",
+      "historical_digest_occurrences": 1,
+      "committed_sha256": "8242452a50c489e63b147e670e81cbefcc4979c499c122021a69ea0e89e22d88",
+      "source_integrity": "DISPUTED_DEPENDENCY",
+      "authority_admission": "NOT_GRANTED",
+      "required_treatment": "PRESERVE_AND_REVIEW"
+    },
+    {
+      "path": "22-freeze-and-releases/PUBLIC_REFERENCE_RELEASE_PROVENANCE_EXCEPTION_CROSS_REFERENCE_001.json",
+      "classification": "EXCEPTION_EVIDENCE",
+      "classification_basis": "PATH_HEURISTIC_NOT_ADJUDICATED",
+      "historical_digest_occurrences": 1,
+      "committed_sha256": "e247ca5d56e67c0bd08fb1c261ea78b3bf1d21856fee10be217c974cf2e7f1d9",
+      "source_integrity": "DISPUTED_DEPENDENCY",
+      "authority_admission": "NOT_GRANTED",
+      "required_treatment": "PRESERVE_AND_REVIEW"
+    }
+  ],
+  "unresolved": [
+    "ORIGIN_OF_HISTORICAL_DIGEST",
+    "HISTORICAL_26_VS_27_COUNT",
+    "INDEPENDENT_SOURCE_AUTHENTICATION",
+    "DOWNSTREAM_SEMANTIC_REVIEW"
+  ],
+  "admission_boundary": {
+    "source_admission": "NOT_GRANTED",
+    "parent_exception": "OPEN_BLOCKED",
+    "authority_admissions": 0,
+    "obligation_discharges": 0,
+    "execution_permission": false
+  }
+}

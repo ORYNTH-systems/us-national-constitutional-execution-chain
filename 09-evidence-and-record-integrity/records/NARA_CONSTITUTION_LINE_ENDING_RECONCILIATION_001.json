@@ -1,0 +1,50 @@
+{
+  "record_id": "NCEC-NARA-CONSTITUTION-LINE-ENDINGS-001",
+  "record_type": "additive_source_representation_reconciliation",
+  "status": "TECHNICAL_REPRESENTATION_RECONCILED",
+  "basis_commit": "6cb621fb1243b21543e675e2013fc1d233eb84c9",
+  "source_artifact_path": "00-constitutional-source/records/official-source-snapshots/nara-constitution-transcript.html",
+  "parent_exception_path": "09-evidence-and-record-integrity/records/NARA_CONSTITUTION_PROVENANCE_EXCEPTION_001.json",
+  "parent_exception_status": "OPEN_BLOCKED",
+  "working_tree": {
+    "bytes": 71558,
+    "sha256": "d8627bf8570b176154210226ad50c6c212b2a17a5a4d9f971efb6e04b3930364",
+    "crlf_sequences": 1012
+  },
+  "git_preserved": {
+    "bytes": 70546,
+    "sha256": "ce0024b73950c9b7e2eed68b66b3da5cba1d3b07e8ab1f6702ff5cd27dda5b6e",
+    "git_blob": "cb91d6c2bf7d1fecd6aea26cf3ae9a9351e41945",
+    "lf_sequences": 1012
+  },
+  "historical_commit_checks": {
+    "79ed05e9234178398765109e56b4973b139b503b": {
+      "sha256": "ce0024b73950c9b7e2eed68b66b3da5cba1d3b07e8ab1f6702ff5cd27dda5b6e",
+      "matches_current_head": true
+    },
+    "7290fcdac2a51d791534b99deafddda1a21e853d": {
+      "sha256": "ce0024b73950c9b7e2eed68b66b3da5cba1d3b07e8ab1f6702ff5cd27dda5b6e",
+      "matches_current_head": true
+    }
+  },
+  "verification": {
+    "working_tree_normalized_equals_head": true,
+    "index_equals_head": true,
+    "historical_commits_equal_head": true,
+    "byte_difference_explained_by_crlf": true
+  },
+  "unresolved": {
+    "historical_claimed_sha256": "827d192ab2a55600210ebbedc24feac29fc396ecb2879eec1825d992a5f4d04a",
+    "historical_digest_origin": "UNRESOLVED",
+    "independent_source_authentication": "NOT_ESTABLISHED",
+    "downstream_reference_reconciliation": "PENDING",
+    "independent_review": "PENDING"
+  },
+  "admission_boundary": {
+    "source_admission": "NOT_GRANTED",
+    "legal_authority_admissions": 0,
+    "obligation_discharges": 0,
+    "execution_permission": false,
+    "parent_exception_closed": false
+  }
+}
