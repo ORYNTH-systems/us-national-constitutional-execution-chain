@@ -1,0 +1,121 @@
+{
+  "record_id": "NCEC-NATIONAL-CONSOLIDATED-AUDIT-BASELINE-001",
+  "record_type": "additive_evidence_bound_non_operational_audit",
+  "basis_commit": "251ffa95d995f0a280d3761084aadef797e2fb1f",
+  "status": "EVIDENCE_ASSEMBLED_REVIEW_PENDING",
+  "scope": {
+    "purpose": "Consolidate historical technical claims and outstanding admission boundaries without certifying constitutional authority.",
+    "evidence_binding_count": 8,
+    "historical_release_distinction": {
+      "reference_framework": "V1_0_0_RELEASED_NON_OPERATIONAL",
+      "execution_candidate": "ASSEMBLED_NOT_RELEASED",
+      "current_public_release_authorization": "NOT_GRANTED_BY_THIS_RECORD"
+    }
+  },
+  "evidence_bindings": {
+    "framework": {
+      "path": "21-registers-and-status/records/NATIONAL_REFERENCE_FRAMEWORK_COMPLETION_STATUS_REGISTER.html",
+      "sha256": "c530de5fb762d8b75ece9aa634af050073bd9e15a471bc18b01e163762ebec77",
+      "basis_commit": "251ffa95d995f0a280d3761084aadef797e2fb1f"
+    },
+    "candidate": {
+      "path": "21-registers-and-status/records/NATIONAL_EXECUTION_RELEASE_CANDIDATE_STATUS_REGISTER.html",
+      "sha256": "6e267ceb7b9cf30ccafbe78ff2396ce25d6bf3b297c20c0c3a9e4f46a8105249",
+      "basis_commit": "251ffa95d995f0a280d3761084aadef797e2fb1f"
+    },
+    "human_review": {
+      "path": "21-registers-and-status/records/NATIONAL_UNRESOLVED_HUMAN_REVIEW_OBLIGATION_REGISTER.html",
+      "sha256": "904980c6044e5f1d76a96177e04a863ae615994b2cd39c562788015678e6aa2b",
+      "basis_commit": "251ffa95d995f0a280d3761084aadef797e2fb1f"
+    },
+    "conservation": {
+      "path": "21-registers-and-status/records/NATIONAL_INTEGRATED_UNRESOLVED_OBLIGATION_CONSERVATION_REGISTER.html",
+      "sha256": "30ecd3aea7489ed640ff16f18775759f34869c9f67243ce68061c1a43852eb68",
+      "basis_commit": "251ffa95d995f0a280d3761084aadef797e2fb1f"
+    },
+    "conformance": {
+      "path": "20-conformance-and-proof/records/NATIONAL_FINAL_CONFORMANCE_MATRIX.html",
+      "sha256": "b66ee699b8eceb415039ee34428bb4ad2db918f8b0a49e8e4e0c15ce62a2e923",
+      "basis_commit": "251ffa95d995f0a280d3761084aadef797e2fb1f"
+    },
+    "nara": {
+      "path": "09-evidence-and-record-integrity/records/NARA_CONSTITUTION_PROVENANCE_EXCEPTION_001.json",
+      "sha256": "bfc838a8be36f6dfe6815ccfb17972aceacfcdb7b90aa6241be537600f5d9eab",
+      "basis_commit": "251ffa95d995f0a280d3761084aadef797e2fb1f"
+    },
+    "inventory": {
+      "path": "09-evidence-and-record-integrity/records/NARA_CONSTITUTION_DOWNSTREAM_INVENTORY_002.json",
+      "sha256": "ec31cb20967424d2696fef852d6e836cb659e35607f0b2eb6e803a96c36b7b8d",
+      "basis_commit": "251ffa95d995f0a280d3761084aadef797e2fb1f"
+    },
+    "declaration": {
+      "path": "00-constitutional-source/declaration-of-independence/DECLARATION_RELATIONSHIP_ADJUDICATION.csv",
+      "sha256": "0b9c467b854d49d1f2f58a6d3dc4c401c597b850e87f2617f82facd6cd31b88a",
+      "basis_commit": "251ffa95d995f0a280d3761084aadef797e2fb1f"
+    }
+  },
+  "technical_conformance": {
+    "historical_matrix_pass_rows": 14,
+    "historical_matrix_total_rows": 14,
+    "interpretation": "Technical conformance only; no governmental authority or source authentication inferred."
+  },
+  "obligation_conservation": {
+    "six_frozen_slices": {
+      "CONGRESSIONAL": 845,
+      "FEDERAL_EXECUTIVE": 1185,
+      "FEDERAL_JUDICIARY": 1761,
+      "FEDERALISM": 1772,
+      "ELECTION": 2365,
+      "NATIONAL_CROSS_BRANCH": 2471
+    },
+    "six_slice_total_unresolved": 10399,
+    "cross_slice_added_unresolved": 360,
+    "resolved": 0,
+    "national_total_unresolved": 10759,
+    "state": "UNRESOLVED_BLOCKING_RELEASE_EFFECT"
+  },
+  "admission_boundary": {
+    "decision_admissions": 0,
+    "consequential_effect_admissions": 0,
+    "governmental_authority": "NONE",
+    "legal_authority_admissions": 0,
+    "obligation_discharges_by_this_record": 0,
+    "execution_permission": false,
+    "source_admission": "NOT_GRANTED",
+    "master_sections_certified": 0,
+    "master_sections_total": 12
+  },
+  "nara_provenance": {
+    "exception_status": "OPEN_BLOCKED",
+    "independent_review": "PENDING",
+    "downstream_files": 24,
+    "downstream_digest_occurrences": 45,
+    "historical_exception_occurrences": 26,
+    "prior_inventory_occurrences": 27,
+    "historical_discrepancy_cause": "UNDETERMINED",
+    "historical_digest_origin": "UNRESOLVED",
+    "independent_source_authentication": "NOT_ESTABLISHED"
+  },
+  "declaration_relationships": {
+    "total": 27,
+    "not_reviewed": 27,
+    "source_verification": "EXTRACTED_PENDING_VERIFICATION",
+    "authority_inferred": false
+  },
+  "unresolved": [
+    "NARA_HISTORICAL_DIGEST_ORIGIN",
+    "NARA_HISTORICAL_26_VS_27_COUNT",
+    "INDEPENDENT_SOURCE_AUTHENTICATION",
+    "DOWNSTREAM_SEMANTIC_REVIEW",
+    "10759_HISTORICAL_HUMAN_REVIEW_OBLIGATIONS",
+    "27_DECLARATION_RELATIONSHIP_REVIEWS",
+    "12_MASTER_SECTION_CERTIFICATIONS"
+  ],
+  "publication_boundary": {
+    "historical_records_mutated": false,
+    "existing_release_status_rewritten": false,
+    "governmental_action_authorized": false,
+    "audit_record_is_self_certifying": false,
+    "independent_review_required": true
+  }
+}
