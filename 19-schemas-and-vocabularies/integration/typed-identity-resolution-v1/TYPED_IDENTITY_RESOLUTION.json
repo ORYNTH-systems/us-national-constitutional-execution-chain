@@ -1,0 +1,66 @@
+{
+  "admission_state": {
+    "effect_permissions": 0,
+    "legal_authority_admissions": 0,
+    "master_sections_certified": 0,
+    "real_identity_bindings": 0
+  },
+  "authority_separate_from_capacity": true,
+  "capacity_separate_from_identity": true,
+  "evidence_separate_from_assertion": true,
+  "id": "NATIONAL-TYPED-IDENTITY-RESOLUTION-V1",
+  "identity_categories": [
+    "PERSON",
+    "OFFICE_OR_ROLE",
+    "PUBLIC_BODY",
+    "PUBLIC_INSTITUTION",
+    "PRIVATE_LEGAL_ENTITY",
+    "AUTOMATED_SYSTEM",
+    "OTHER_UNRESOLVED"
+  ],
+  "identity_resolution_requirements": {
+    "authority_record_id": "separate record identifier",
+    "capacity_record_id": "separate record identifier",
+    "effective_from": "timezone-aware ISO timestamp",
+    "effective_until": "timezone-aware ISO timestamp",
+    "identity_category": "enumerated category",
+    "identity_record_id": "nonempty exact identifier",
+    "reference_value": "nonempty exact identifier",
+    "revocation_checked_at": "timezone-aware ISO timestamp",
+    "source_locator": "independently inspectable locator",
+    "source_sha256": "64-character hexadecimal digest"
+  },
+  "prohibited_inferences": [
+    "PERSON_EQUALS_OFFICE",
+    "OFFICE_EQUALS_CURRENT_OCCUPANT",
+    "IDENTITY_EQUALS_AUTHORITY",
+    "CONTRACT_EQUALS_SOVEREIGN_DELEGATION",
+    "AUTOMATED_IDENTITY_EQUALS_PRINCIPAL_AUTHORITY",
+    "HISTORICAL_AUTHORIZATION_EQUALS_CURRENT_PERMISSION",
+    "EVIDENCE_LOCATOR_EQUALS_VERIFIED_EVIDENCE"
+  ],
+  "reference_bindings": [
+    {
+      "field": "actor_ref",
+      "owner_contract": "JURISDICTION",
+      "status": "PROPOSED_RESOLUTION_LAYER",
+      "target": "TYPED_IDENTITY_RESOLUTION"
+    },
+    {
+      "additional_requirement": "PUBLIC_CAPACITY_EVIDENCE",
+      "field": "public_principal_ref",
+      "owner_contract": "EXTERNAL_EXECUTION",
+      "status": "PROPOSED_RESOLUTION_LAYER",
+      "target": "TYPED_IDENTITY_RESOLUTION"
+    },
+    {
+      "field": "actor_ref",
+      "owner_contract": "AUTHORITY_CHAIN",
+      "status": "PROPOSED_RESOLUTION_LAYER",
+      "target": "TYPED_IDENTITY_RESOLUTION"
+    }
+  ],
+  "source_integration_sha256": "448b87c7c1b5697c20af1334e5da28833ad3f1add40518b072660467f5e46fec",
+  "status": "PROPOSED_NOT_ADOPTED",
+  "version": "0.1.0-proposed"
+}

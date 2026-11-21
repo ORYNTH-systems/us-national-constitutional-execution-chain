@@ -1,0 +1,59 @@
+{
+  "id": "NATIONAL-SEMANTIC-RECONCILIATION-V1",
+  "version": "0.1.0-proposed",
+  "status": "PROPOSED_NOT_ADOPTED",
+  "source_head": "945b416df1773035f2e0c277f5390a835f43bfc0",
+  "original_schema_sha256": {
+    "JURISDICTION.actor_ref": "e61a980f946bed8e067f806a17bac37becd96d6110f432e1be6335eb2b65deab",
+    "EXTERNAL_EXECUTION.public_principal_ref": "4b6045880a7392580b9139b6edf3c8cf70de4d71e7377f8262de782debb55655",
+    "AUTHORITY_CHAIN.actor_ref": "065b75d40e4c88e627b0461fff730693c4c2baa05e1603695f5a39c7cffe2774"
+  },
+  "reference_rules": [
+    {
+      "reference": "JURISDICTION.actor_ref",
+      "resolution_layer": "TYPED_IDENTITY_RESOLUTION",
+      "office_only_inference_prohibited": true,
+      "requires": [
+        "identified_actor",
+        "identity_category",
+        "jurisdiction_basis_evidence",
+        "scope_and_time_validation"
+      ],
+      "semantic_target_admitted": false
+    },
+    {
+      "reference": "EXTERNAL_EXECUTION.public_principal_ref",
+      "resolution_layer": "TYPED_IDENTITY_RESOLUTION",
+      "authority_chain_as_principal_inference_prohibited": true,
+      "requires": [
+        "identified_public_principal",
+        "public_capacity_evidence",
+        "lawful_authority_source",
+        "scope_and_time_validation"
+      ],
+      "semantic_target_admitted": false
+    },
+    {
+      "reference": "AUTHORITY_CHAIN.actor_ref",
+      "resolution_layer": "TYPED_IDENTITY_RESOLUTION",
+      "requires": [
+        "identified_actor",
+        "identity_category",
+        "capacity_evidence",
+        "lawful_authority_source"
+      ],
+      "semantic_target_admitted": false
+    }
+  ],
+  "prohibited_inferences": [
+    "identity_implies_capacity",
+    "capacity_implies_authority",
+    "office_implies_jurisdiction",
+    "authority_chain_implies_public_principal",
+    "historical_authorization_implies_current_effect_permission",
+    "structural_evidence_implies_independent_authentication"
+  ],
+  "legal_authority_admissions": 0,
+  "execution_permissions_granted": 0,
+  "master_sections_certified": 0
+}

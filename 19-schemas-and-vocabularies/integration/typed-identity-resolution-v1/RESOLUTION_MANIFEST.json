@@ -1,0 +1,15 @@
+{
+  "effect_permissions": 0,
+  "files_sha256": {
+    "TYPED_IDENTITY_RESOLUTION.json": "aef9624e830a4d3f4de2e82e72d898dc69b12dd574205aaa4d8199b43a49aa77",
+    "test_resolution_contract.py": "bf69edc3b86d952c234dad5f7178fbc6689634d7d3f2a4a1ed33ad5bca5dfc5f"
+  },
+  "legal_authority_admissions": 0,
+  "parent_commit": "945b416df1773035f2e0c277f5390a835f43bfc0",
+  "postwrite_tests_pending": true,
+  "prewrite_synthetic_tests_passed": 10,
+  "real_identity_bindings": 0,
+  "source_integration_sha256": "448b87c7c1b5697c20af1334e5da28833ad3f1add40518b072660467f5e46fec",
+  "status": "PROPOSED_PENDING_EVIDENCE_ADJUDICATION",
+  "step": "191A-96-N-61"
+}
